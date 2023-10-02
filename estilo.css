@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@900&display=swap');
+
+body {
+    background-color: brown;
+}
+
+     /*HOME*/
+header {
+    background-image: url(imagens/header_netflix.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+
+    
+
+}
+
+.article_menu{
+    text-align: right;
+}
+
+ul, li, a {
+    cursor: pointer;
+    display: inline-block; /*se usasse o li no lugar do ul: display:inline-block*/
+    text-decoration: none; /*tirar sublinhado*/
+    list-style-type: none; /*pra tirar o budgets*/
+    gap: .6rem; /*espaço entre linhas */
+    color: yellow;
+    /*color: white;*/
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 1px;
+    font-size: 1rem;
+}
+
+.menu {
+    /*justify-content: right;*/
+
+}
+
+.menu a {
+    /*border: solid 2px white;*/
+    padding: .15em .5em;
+    border-radius: 15px;
+    margin-top: 0;
+    /*margin-top: 0.2rem;*/
+    margin-right: 1rem;
+
+}
+
+.menu a:hover {
+    background-color: brown;
+    
+    /*background-color: red;*/
+    transform: scale(1.1); 
+
+    
+}
+
+/*Título e subtítulo*/
+h1, h3 {
+    text-align: center;
+    color: white;
+}
+
+/*Título header*/
+h1 {
+    font-size: 6rem;
+    color: yellow;
+}
+
+
+/*Subtítulo do header*/
+h3 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    /*border: 1px solid yellow;*/
+    color: yellow;
+
+
+}
+
+
+     /*INDICAÇÕES*/
+
+/*Header das indicações*/
+.indicações {
+    background-image: url(imagens/indicacoes.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+
+}
+
+.indicações_título {
+    color: yellow;
+    font-size: 6rem;
+
+}
+
+/*Nome seção filmes e seção séries*/
+h4 {
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+    background-color: wheat;
+    padding: 2rem;
+    font-family: 'Merienda', cursive;
+
+
+
+}
+
+/*Título filme e série*/
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+
+
+}
+
+h2:hover {
+    transform: scale(1.1);
+    color: yellow;
+    /*color: color-mix(in srgb, red, white);*/
+
+}
+
+/*Seção pra cada de filme e série*/
+.section_container {
+    text-align: center;
+    /*display: flex;*/
+    margin-top: 8rem;
+    /*margin-bottom: 10rem;*/
+
+
+
+}
+
+/*Div container de cada filme e série*/
+.container {
+    /*align-items: center;*/
+    margin-bottom: 15rem;
+ 
+
+
+}
+
+/*Article pra título e img; e article pro parágrafo */
+.article_fs {
+    
+
+
+}
+
+/*Imagem de cada filme e série*/
+.imagem_fs {
+    width: 250px;
+    float: left;
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 2px 2px yellow;
+    border-radius: 5px;
+
+
+}
+
+.imagem_fs:hover {
+    transform: scale(1.1); 
+}
+
+/*Parágrafo dentro do article pro nome lançamento e sinopse*/
+.parágrafo_dados {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 30rem;
+    margin-right: 10rem;
+    text-justify: auto;
+   
+
+}
+
+/*Parágrafo contando a sinopse do filme/série*/
+.parágrafo_sinopse {
+    color: black;
+    text-align: left;
+    margin-left: 30rem;
+    margin-right: 10rem;
+    text-justify: auto;
+    /*margin-bottom: 3rem;*/
+    text-align: justify;
+ 
+ 
+}
+
+
+     /*TRAILER*/
+
+/*Header*/
+.trailer {
+    background-image: url(imagens/trailer.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+
+}
+
+/*Trailer no header*/
+.trailer_título_header {
+    color: yellow;
+    margin-top: 5rem;
+    font-size: 6rem;
+    
+
+}
+
+
+/*nome da seção filmes e séries*/
+.trailer_seção {
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    /*margin-bottom: .8rem;*/
+    background-color: rgb(248, 248, 148);
+    padding: 2rem;
+
+
+
+}
+
+/*Seção pra cada de filme e série*/
+.section_container_trailer {
+    text-align: center;
+    /*display: flex;*/
+    margin-top: 6rem;
+    /*margin-bottom: 10rem;*/
+
+
+
+}
+
+/*Div container de cada filme e série*/
+.container_trailer {
+    /*align-items: center;*/
+    /*margin-bottom: 1rem;*/
+ 
+
+}
+
+/*h2 do trailer*/
+.container_trailer h2 {
+    font-size: 1.8rem;
+
+
+}
+
+/*h2 Título de cada filme e série*/
+.trailer_nome_fs {
+    text-align: center;
+    margin-top: 0;
+    /*margin-top: 1rem;*/
+    margin-bottom: 2rem;
+
+}
+
+.trailer_nome_fs:hover {
+    transform: scale(1.1);
+    color: yellow;
+    /*color: color-mix(in srgb, red, white);*/
+
+}
+
+/*Vídeos*/
+iframe {
+    width: 500px;
+    height: 300px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+
+}
+
+
+
+     /*ENTRE EM CONTATO*/
+
+/*Header do contato*/
+.indicações_formulario {
+    background-image: url(imagens//pipoca5.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+    color: yellow;
+
+
+}
+
+.parágrafo_contato {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    line-height: 2rem; /*distância entre uma linha*/
+
+}
+
+fieldset {
+    /*border: none;*/
+    border: 2px solid black;
+    /*border: 3px solid yellow;*/
+    border-radius: 20px;
+
+}
+
+.section_form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+
+}
+
+.form {
+
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: yellow;
+    letter-spacing: .1rem;
+
+
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: yellow;
+    margin-left: 1rem;
+    letter-spacing: .1rem;
+
+   
+
+}
+
+input {
+    width: 60%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding: .7rem;
+    /*border: 5px;*/
+    /*border-radius: 1px solid yellow;*/
+    /*font-size: 1rem;*/
+    flex-grow: 1;
+    outline: none;
+    border: 2px solid brown;
+    border-radius: 5px;
+
+
+}
+
+input:focus {
+    outline: 2px solid yellow;
+
+}
+
+textarea {
+    resize: none;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width: 80%;
+    outline: none;
+    border: 2px solid brown;
+    border-radius: 5px;
+
+}
+
+textarea:focus {
+    outline: 2px solid yellow;
+
+}
+
+
+.btn {
+    width: 5rem;
+    padding: .6rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+
+}
+
+.btn:hover {
+    background-color: yellow;
+    transform: scale(1.1); 
+    border-radius: 5px ;
+    color: brown;
+}
+
+     /*AUTORA*/
+
+/*div sobre a autora*/
+.sobre_autora {
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    background-color: rgba(192, 75, 75, 0.555);
+    padding-bottom: 2rem;
+    padding-top: .3rem;
+
+}
+
+.autora {
+    color: black;
+    letter-spacing: 1px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.autora_parágafro {
+    font-size: 1rem;
+    margin-left: 1.2rem;
+
+
+}
+
+/*ícones linkedin e github*/
+.fa-brands, .fa-linkedin, .fa-github {
+    font-size: 3rem;
+    margin-left: 1.2rem;
+    color: rgb(141, 33, 33);
+
+
+}
+
+.fa-brands:hover {
+    color: yellow;
+}
+
+
+
+     /*CRÉDITOS*/
+
+/*nome créditos*/     
+.créditos {
+    color: black;
+    letter-spacing: 1px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+
+}
+
+
+.div_créditos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 40vh;
+    background-color: rgba(143, 28, 28, 0.555);
+    margin-bottom: 0;
+
+}
+
+.créditos_links {
+    color: yellow;
+    line-height: 1px;
+
+}
+
+.créditos_link a {
+    
+}
+
+
+     /*BOTÃO PRA SUBIR A PÁGINA*/
+
+/*img seta: flaticon.com*/
+#up {
+	position:fixed;
+	bottom: 1rem;
+	right: 0px;
+
+}
+
+.button_seta {
+    background-color: #cccccc17;
+    border-radius: 20%;
+    margin-bottom: 1rem;
+    margin-right: .5rem;
+    font-size: 1rem;
+
+}
+
+.button_seta:hover {
+    background-color: color-mix(in srgb, red, white);
+}
+
+
+     /*RODAPÉ*/
+
+footer {
+    color: black;
+    /*background-color: rgba(143, 28, 28, 0.555);*/
+    /*background-color: #c0bebeaf;*/
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /*text-shadow: 2px 2px 2px black;*/
+    letter-spacing: 2px; /*para distanciar as letras*/
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: 11px;
+    font-weight: bolder;
+    /*line-height: 1px; /*altura da linha*/
+
+  
+}
+
+
+
+      /*RESPONSIVIDADE CELULAR*/
+
+@media screen and (max-width: 800px) {
+
+    /*INDICAÇÕES*/
+
+/*Header das indicações*/
+.indicações {
+    background-image: url(imagens/indicacoes.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+
+}
+
+/*Título de indicações*/
+.indicações_título {
+    color: yellow;
+    font-size: 3rem;
+    margin-top: auto;
+
+}
+
+/*Nome seção filmes e seção séries*/
+h4 {
+    color: red;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    background-color: wheat;
+    padding: 1rem;
+
+
+}
+
+/*Título filme e série*/
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
+
+}
+
+h2:hover {
+    transform: none;
+    color: black;
+
+}
+
+/*Seção pra cada de filme e série*/
+.section_container {
+    text-align: center;
+    /*flex-direction: column;*/
+    margin-top: 1rem;
+
+
+
+}
+
+/*Div container de cada filme e série*/
+.container {
+    /*align-items: center;*/
+    margin-bottom: 1rem;
+ 
+
+
+}
+
+/*Article pra título e img; e article pro parágrafo */
+.article_fs {
+    
+
+
+}
+
+/*Imagem de cada filme e série*/
+.imagem_fs {
+    width: 150px;
+    float: none;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px 2px 2px yellow;
+    border-radius: 5px;
+
+
+}
+
+.imagem_fs:hover {
+    transform: scale(1.1); 
+}
+
+/*Parágrafo dentro do article pro nome lançamento e sinopse*/
+.parágrafo_dados {
+    font-weight: bold;
+    text-align: center;
+    /*flex-direction: column;*/
+    margin-top: 1rem;
+    margin-left: 1em;
+    margin-right: 1rem;
+    text-justify: auto;
+
+   
+}
+
+/*Parágrafo contando a sinopse do filme/série*/
+.parágrafo_sinopse {
+    color: black;
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 1rem;
+    text-justify: auto;
+    margin-bottom: 3rem;
+  
+ 
+}
+
+
+    /*TRAILER*/
+
+/*Header*/
+.trailer {
+    background-image: url(imagens/trailer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+
+}
+
+/*Trailer no header*/
+.trailer_título_header {
+    color: yellow;
+    margin-top: auto;
+    font-size: 4rem;
+    
+
+}
+
+
+/*nome da seção filmes e séries*/
+.trailer_seção {
+    color: red;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    background-color: rgb(248, 248, 148);
+    padding: 1rem;
+
+
+
+}
+
+/*Seção pra cada de filme e série*/
+.section_container_trailer {
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+/*Div container de cada filme e série*/
+.container_trailer {
+    /*align-items: center;*/
+    /*margin-bottom: 1rem;*/
+ 
+
+}
+
+/*h2 do trailer*/
+.container_trailer h2 {
+    font-size: 1.5rem;
+
+
+}
+
+/*h2 Título de cada filme e série*/
+.trailer_nome_fs {
+    text-align: center;
+    margin-top: 0;
+    /*margin-top: 1rem;*/
+    margin-bottom: 1rem;
+
+}
+
+.trailer_nome_fs:hover {
+    transform: none;
+    color: black;
+
+}
+
+/*Vídeos*/
+iframe {
+    width: 300px;
+    height: 200px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+
+}
+
+
+
+}
