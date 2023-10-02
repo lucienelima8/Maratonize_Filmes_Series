@@ -173,12 +173,18 @@ h2:hover {
     margin-bottom: 2rem;
     box-shadow: 2px 2px 2px 2px yellow;
     border-radius: 5px;
+    /*transform: rotate(180deg);*/
 
 
+    
 }
 
+
 .imagem_fs:hover {
-    transform: scale(1.1); 
+    /*transform: scale(1.1);*/
+    transform: translate(50px, 50px); /*imagem se movimentando no eixo X e Y*/
+
+
 }
 
 /*Parágrafo dentro do article pro nome lançamento e sinopse*/
@@ -645,7 +651,9 @@ h2:hover {
 }
 
 .imagem_fs:hover {
-    transform: scale(1.1); 
+    transform: none; 
+    transform: none;
+
 }
 
 /*Parágrafo dentro do article pro nome lançamento e sinopse*/
