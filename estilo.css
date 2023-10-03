@@ -560,6 +560,47 @@ footer {
 
 @media screen and (max-width: 800px) {
 
+
+.article_menu{
+    text-align: center;
+}
+    
+ul, li, a {
+    cursor: pointer;
+    display: inline-block; /*se usasse o li no lugar do ul: display:inline-block*/
+    text-decoration: none; /*tirar sublinhado*/
+    list-style-type: none; /*pra tirar o budgets*/
+    gap: .6rem; /*espaço entre linhas */
+    color: yellow;
+    /*color: white;*/
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 1px;
+    font-size: .7rem;
+}
+    
+.menu {
+    /*justify-content: right;*/
+    
+}
+    
+.menu a {
+    /*border: solid 2px white;*/
+    padding: .15em .5em;
+    border-radius: 15px;
+    margin-top: .0;
+    /*margin-top: 0.2rem;*/
+    /*margin-right: 1rem;*/
+    
+}
+    
+.menu a:hover {
+    background-color: brown;
+    transform: scale(1.1); 
+    
+        
+}    
+
     /*INDICAÇÕES*/
 
 /*Header das indicações*/
