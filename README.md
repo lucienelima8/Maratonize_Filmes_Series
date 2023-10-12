@@ -16,6 +16,6 @@ Escolha um assunto de seu interesse que você queira desenvolver um site, manten
 <br>Formulário para coletar cadastro
 <br>Rodapé com a frase criado com seu nome
 
-<a href="" target="_blank">Clique aqui</a>
+<!-- <a href="" target="_blank">Clique aqui</a> -->
 
 
