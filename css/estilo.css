@@ -304,6 +304,108 @@ iframe {
 
 }
 
+     /*MAPAS*/
+
+/*Header das mapas*/
+.mapas {
+    background-image: url(../imagens/googlemaps_3.png);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+
+}
+
+.mapas_título {
+    color: yellow;
+    font-size: 6rem;
+
+}
+
+/*h4 da seção mapas*/
+.h4_mapas {
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+    background-color: wheat;
+    padding: 2rem;
+    font-family: 'Merienda', cursive;
+
+}
+
+.section_mapas {
+    margin: 1.1rem 1.5rem;
+    /*display: inline-block;*/
+    
+}
+
+/*Título do f/s em mapas*/
+.h2_mapas {
+    color: black;
+    font-size: 2.3rem;
+    margin-top: 3rem;
+    margin-bottom: .1rem;
+
+}
+
+.h2_mapas:hover {
+    color: black;
+    text-shadow: 2px 2px 2px yellow;
+    font-size: 2.5rem;
+
+}
+
+/*Descrição do ponto turístico*/
+.descrição_turístico {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+
+}
+
+/*Destacar parágrafo nome do ponto turístico*/
+.destaque {
+    color: yellow;
+
+}
+
+
+/*Imagem de cada ponto turístico*/
+.imagem_turística {
+    width: 500px;
+    height: 250px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px yellow;
+
+}
+
+/*Mapa do ponto turístico*/
+.mapa_turístico {
+    width: 500px;
+    height: 250px;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px yellow;
+
+}
+
+.imagem_turística:hover, .mapa_turístico:hover {
+    transform: scale(1.1);
+    margin-top: 1rem; 
+    margin-bottom: 1.5rem;
+
+}
+
+
+
 
 
      /*ENTRE EM CONTATO*/
@@ -461,6 +563,13 @@ textarea:focus {
 
 
 }
+
+/*Meu nome e meus contatos*/
+span {
+    color: yellow;
+    font-weight: bold;
+}
+
 
 /*ícones linkedin e github*/
 .fa-brands, .fa-linkedin, .fa-github {
