@@ -374,6 +374,13 @@ iframe {
 
 }
 
+/*Article com a foto e o mapa*/
+.article_mapas {
+    display: flex;
+    justify-content: center;
+
+
+}
 
 /*Imagem de cada ponto turístico*/
 .imagem_turística {
@@ -383,6 +390,7 @@ iframe {
     margin-right: 2rem;
     border-radius: 20px;
     box-shadow: 3px 3px 3px 3px yellow;
+
 
 }
 
@@ -394,6 +402,7 @@ iframe {
     margin-right: 2rem;
     border-radius: 20px;
     box-shadow: 3px 3px 3px 3px yellow;
+
 
 }
 
@@ -831,6 +840,8 @@ h2:hover {
   
  
 }
+
+
 
 
     /*TRAILER*/
