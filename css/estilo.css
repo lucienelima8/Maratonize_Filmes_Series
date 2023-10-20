@@ -21,7 +21,7 @@ header {
 }
 
 .article_menu{
-    text-align: right;
+    text-align: center;
 }
 
 ul, li, a {
@@ -65,22 +65,22 @@ ul, li, a {
 /*Título e subtítulo*/
 h1, h3 {
     text-align: center;
-    color: white;
+    color: yellow;
 }
 
 /*Título header*/
 h1 {
     font-size: 6rem;
-    color: yellow;
+    margin-bottom: 0;
 }
 
 
 /*Subtítulo do header*/
 h3 {
     font-size: 3rem;
+    margin-top: .1rem;
     margin-bottom: 2rem;
     /*border: 1px solid yellow;*/
-    color: yellow;
 
 
 }
@@ -128,6 +128,7 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 1.8rem;
+    padding-top: 2rem;
 
 
 }
@@ -136,6 +137,12 @@ h2:hover {
     transform: scale(1.1);
     color: yellow;
     /*color: color-mix(in srgb, red, white);*/
+
+}
+
+/*Bloco inteiro indicações*/
+.div_indicações {
+    margin-bottom: 0;
 
 }
 
@@ -253,6 +260,12 @@ h2:hover {
 
 }
 
+/*Bloco inteiro trailer*/
+.div_trailer {
+    margin-bottom: 3rem;
+
+}
+
 /*Seção pra cada de filme e série*/
 .section_container_trailer {
     text-align: center;
@@ -338,25 +351,34 @@ iframe {
 
 }
 
+/*Bloco inteiro*/
+.div_mapas {
+    margin-bottom: 5rem;
+
+}
+
 .section_mapas {
-    margin: 1.1rem 1.5rem;
+    margin: 1.5rem 1.5rem;
     /*display: inline-block;*/
+    
     
 }
 
 /*Título do f/s em mapas*/
 .h2_mapas {
     color: black;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     margin-top: 3rem;
     margin-bottom: .1rem;
 
 }
 
 .h2_mapas:hover {
-    color: black;
-    text-shadow: 2px 2px 2px yellow;
-    font-size: 2.5rem;
+    /*color: black;*/
+    /*text-shadow: 2px 2px 2px yellow;*/
+    /*font-size: 2.5rem;*/
+    transform: scale(1.1);
+    color: yellow;
 
 }
 
@@ -412,8 +434,6 @@ iframe {
     margin-bottom: 1.5rem;
 
 }
-
-
 
 
 
@@ -720,6 +740,45 @@ ul, li, a {
         
 }    
 
+    /*HOME*/
+/*Header das indicações*/
+header {
+    background-image: url(../imagens/header_netflix.jpg);
+    /*background-image: url(imagens/header_netflix.jpg);*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+
+}
+
+/*Título e subtítulo*/
+h1, h3 {
+    text-align: center;
+    color: yellow;
+}
+
+/*Título header*/
+h1 {
+    font-size: 3rem;
+    margin-top: .1rem;
+    margin-bottom: 0;
+}
+
+
+/*Subtítulo do header*/
+h3 {
+    font-size: 2rem;
+    margin-top: .1rem;
+    margin-bottom: 2rem;
+    /*border: 1px solid yellow;*/
+
+}
+
+
     /*INDICAÇÕES*/
 
 /*Header das indicações*/
@@ -771,6 +830,8 @@ h2:hover {
     color: black;
 
 }
+
+
 
 /*Seção pra cada de filme e série*/
 .section_container {
