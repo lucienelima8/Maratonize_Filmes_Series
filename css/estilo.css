@@ -4,7 +4,7 @@ body {
     background-color: brown;
 }
 
-     /*HOME*/
+     /*PAGE HOME*/
 header {
     background-image: url(../imagens/header_netflix.jpg);
     /*background-image: url(imagens/header_netflix.jpg);*/
@@ -83,499 +83,6 @@ h3 {
     /*border: 1px solid yellow;*/
 
 
-}
-
-
-     /*INDICAÇÕES*/
-
-/*Header das indicações*/
-.indicações {
-    background-image: url(../imagens/indicacoes.jpg);
-    background-size: cover;
-    background-position: right center;
-    background-repeat: no-repeat;
-    height: 400px;
-    width: 100%;
-    margin: 0;
-    border-radius: 5px;
-
-}
-
-.indicações_título {
-    color: yellow;
-    font-size: 6rem;
-
-}
-
-/*Nome seção filmes e seção séries*/
-h4 {
-    color: red;
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 1rem;
-    margin-bottom: .8rem;
-    background-color: wheat;
-    padding: 2rem;
-    font-family: 'Merienda', cursive;
-
-
-
-}
-
-/*Título filme e série*/
-h2 {
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-size: 1.8rem;
-    padding-top: 2rem;
-
-
-}
-
-h2:hover {
-    transform: scale(1.1);
-    color: yellow;
-    /*color: color-mix(in srgb, red, white);*/
-
-}
-
-/*Bloco inteiro indicações*/
-.div_indicações {
-    margin-bottom: 0;
-
-}
-
-/*Seção pra cada de filme e série*/
-.section_container {
-    text-align: center;
-    /*display: flex;*/
-    margin-top: 8rem;
-    /*margin-bottom: 10rem;*/
-
-
-
-}
-
-/*Div container de cada filme e série*/
-.container {
-    /*align-items: center;*/
-    margin-bottom: 15rem;
- 
-
-
-}
-
-/*Article pra título e img; e article pro parágrafo */
-.article_fs {
-    
-
-
-}
-
-/*Imagem de cada filme e série*/
-.imagem_fs {
-    width: 250px;
-    float: left;
-    margin-left: 10rem;
-    margin-bottom: 2rem;
-    box-shadow: 2px 2px 2px 2px yellow;
-    border-radius: 5px;
-    /*transform: rotate(180deg);*/
-
-
-    
-}
-
-
-.imagem_fs:hover {
-    /*transform: scale(1.1);*/
-    transform: translate(50px, 50px); /*imagem se movimentando no eixo X e Y*/
-
-
-}
-
-/*Parágrafo dentro do article pro nome lançamento e sinopse*/
-.parágrafo_dados {
-    font-weight: bold;
-    text-align: left;
-    margin-left: 30rem;
-    margin-right: 10rem;
-    text-justify: auto;
-   
-
-}
-
-/*Parágrafo contando a sinopse do filme/série*/
-.parágrafo_sinopse {
-    color: black;
-    text-align: left;
-    margin-left: 30rem;
-    margin-right: 10rem;
-    text-justify: auto;
-    /*margin-bottom: 3rem;*/
-    text-align: justify;
- 
- 
-}
-
-
-     /*TRAILER*/
-
-/*Header*/
-.trailer {
-    background-image: url(../imagens/trailer.jpg);
-    background-size: cover;
-    background-position: right center;
-    background-repeat: no-repeat;
-    height: 400px;
-    width: 100%;
-    margin: 0;
-    border-radius: 5px;
-
-}
-
-/*Trailer no header*/
-.trailer_título_header {
-    color: yellow;
-    margin-top: 5rem;
-    font-size: 6rem;
-    
-
-}
-
-
-/*nome da seção filmes e séries*/
-.trailer_seção {
-    color: red;
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 1rem;
-    margin-bottom: 0;
-    /*margin-bottom: .8rem;*/
-    background-color: rgb(248, 248, 148);
-    padding: 2rem;
-
-
-
-}
-
-/*Bloco inteiro trailer*/
-.div_trailer {
-    margin-bottom: 3rem;
-
-}
-
-/*Seção pra cada de filme e série*/
-.section_container_trailer {
-    text-align: center;
-    /*display: flex;*/
-    margin-top: 6rem;
-    /*margin-bottom: 10rem;*/
-
-
-
-}
-
-/*Div container de cada filme e série*/
-.container_trailer {
-    /*align-items: center;*/
-    /*margin-bottom: 1rem;*/
- 
-
-}
-
-/*h2 do trailer*/
-.container_trailer h2 {
-    font-size: 1.8rem;
-
-
-}
-
-/*h2 Título de cada filme e série*/
-.trailer_nome_fs {
-    text-align: center;
-    margin-top: 0;
-    /*margin-top: 1rem;*/
-    margin-bottom: 2rem;
-
-}
-
-.trailer_nome_fs:hover {
-    transform: scale(1.1);
-    color: yellow;
-    /*color: color-mix(in srgb, red, white);*/
-
-}
-
-/*Vídeos*/
-iframe {
-    width: 500px;
-    height: 300px;
-    border: 2px solid yellow;
-    border-radius: 20px;
-
-}
-
-     /*MAPAS*/
-
-/*Header das mapas*/
-.mapas {
-    background-image: url(../imagens/googlemaps_3.png);
-    background-size: cover;
-    background-position: right center;
-    background-repeat: no-repeat;
-    height: 400px;
-    width: 100%;
-    margin: 0;
-    border-radius: 5px;
-
-}
-
-.mapas_título {
-    color: yellow;
-    font-size: 6rem;
-
-}
-
-/*h4 da seção mapas*/
-.h4_mapas {
-    color: red;
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 1rem;
-    margin-bottom: .8rem;
-    background-color: wheat;
-    padding: 2rem;
-    font-family: 'Merienda', cursive;
-
-}
-
-/*Bloco inteiro*/
-.div_mapas {
-    margin-bottom: 5rem;
-
-}
-
-.section_mapas {
-    margin: 1.5rem 1.5rem;
-    /*display: inline-block;*/
-    
-    
-}
-
-/*Título do f/s em mapas*/
-.h2_mapas {
-    color: black;
-    font-size: 1.8rem;
-    margin-top: 3rem;
-    margin-bottom: .1rem;
-
-}
-
-.h2_mapas:hover {
-    /*color: black;*/
-    /*text-shadow: 2px 2px 2px yellow;*/
-    /*font-size: 2.5rem;*/
-    transform: scale(1.1);
-    color: yellow;
-
-}
-
-/*Descrição do ponto turístico*/
-.descrição_turístico {
-    text-align: center;
-    margin-top: 1rem;
-    font-size: 1.1rem;
-
-}
-
-/*Destacar parágrafo nome do ponto turístico*/
-.destaque {
-    color: yellow;
-
-}
-
-/*Article com a foto e o mapa*/
-.article_mapas {
-    display: flex;
-    justify-content: center;
-
-
-}
-
-/*Imagem de cada ponto turístico*/
-.imagem_turística {
-    width: 500px;
-    height: 250px;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px 3px yellow;
-
-
-}
-
-/*Mapa do ponto turístico*/
-.mapa_turístico {
-    width: 500px;
-    height: 250px;
-    margin-left: 5rem;
-    margin-right: 2rem;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px 3px yellow;
-
-
-}
-
-.imagem_turística:hover, .mapa_turístico:hover {
-    transform: scale(1.1);
-    margin-top: 1rem; 
-    margin-bottom: 1.5rem;
-
-}
-
-/*Áudio do f/s*/
-.audio {
-    text-align: center;
-    margin-top: 1rem;
-
-}
-
-.audio p {
-    font-weight: bold;
-    font-size: 1rem;
-    margin-top: 2rem;
-    
-}
-
-
-
-     /*ENTRE EM CONTATO*/
-
-/*Header do contato*/
-.indicações_formulario {
-    background-image: url(../imagens/pipoca5.jpg);
-    background-size: cover;
-    background-position: right center;
-    background-repeat: no-repeat;
-    height: 250px;
-    width: 100%;
-    margin: 0;
-    border-radius: 5px;
-    color: yellow;
-
-
-}
-
-.parágrafo_contato {
-    margin-top: 5rem;
-    margin-left: 2rem;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bolder;
-    line-height: 2rem; /*distância entre uma linha*/
-
-}
-
-fieldset {
-    /*border: none;*/
-    border: 2px solid black;
-    /*border: 3px solid yellow;*/
-    border-radius: 20px;
-
-}
-
-.section_form {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-
-}
-
-.form {
-
-}
-
-legend {
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    color: yellow;
-    letter-spacing: .1rem;
-
-
-}
-
-label {
-    font-weight: bold;
-    font-size: 1.1rem;
-    color: yellow;
-    margin-left: 1rem;
-    letter-spacing: .1rem;
-
-   
-
-}
-
-input {
-    width: 60%;
-    margin-top: .8rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    padding: .7rem;
-    /*border: 5px;*/
-    /*border-radius: 1px solid yellow;*/
-    /*font-size: 1rem;*/
-    flex-grow: 1;
-    outline: none;
-    border: 2px solid brown;
-    border-radius: 5px;
-
-
-}
-
-input:focus {
-    outline: 2px solid yellow;
-
-}
-
-textarea {
-    resize: none;
-    margin-top: .8rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    width: 80%;
-    outline: none;
-    border: 2px solid brown;
-    border-radius: 5px;
-
-}
-
-textarea:focus {
-    outline: 2px solid yellow;
-
-}
-
-
-.btn {
-    width: 5rem;
-    padding: .6rem;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-
-
-
-}
-
-.btn:hover {
-    background-color: yellow;
-    transform: scale(1.1); 
-    border-radius: 5px ;
-    color: brown;
 }
 
      /*AUTORA*/
@@ -733,10 +240,506 @@ footer {
 }
 
 
+     /*PAGE INDICAÇÕES*/
+
+/*Header das indicações*/
+.indicações {
+    background-image: url(../imagens/indicacoes.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+    
+
+}
+
+/*Título: Nossas indicações*/
+.indicações_título {
+    color: yellow;
+    font-size: 6rem;
+
+}
+
+/*Nome seção filmes e seção séries*/
+h4 {
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+    background-color: wheat;
+    padding: 2rem;
+    font-family: 'Merienda', cursive;
+
+
+
+}
+
+/*Título filme e série*/
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+
+
+}
+
+h2:hover {
+    transform: scale(1.1);
+    color: yellow;
+    /*color: color-mix(in srgb, red, white);*/
+
+}
+
+/*Bloco inteiro indicações*/
+.div_indicações {
+    margin-bottom: 0;
+
+}
+
+/*Seção pra cada de filme e série*/
+.section_container {
+    text-align: center;
+    /*display: flex;*/
+    margin-top: 8rem;
+    /*margin-bottom: 10rem;*/
+
+
+
+}
+
+/*Div container de cada filme e série*/
+.container {
+    /*align-items: center;*/
+    margin-bottom: 15rem;
+ 
+
+
+}
+
+/*Article pra título e img; e article pro parágrafo */
+.article_fs {
+    
+
+
+}
+
+/*Imagem de cada filme e série*/
+.imagem_fs {
+    width: 250px;
+    float: left;
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 2px 2px yellow;
+    border-radius: 5px;
+    /*transform: rotate(180deg);*/
+
+
+    
+}
+
+
+.imagem_fs:hover {
+    /*transform: scale(1.1);*/
+    transform: translate(50px, 50px); /*imagem se movimentando no eixo X e Y*/
+
+
+}
+
+/*Parágrafo dentro do article pro nome lançamento e sinopse*/
+.parágrafo_dados {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 30rem;
+    margin-right: 10rem;
+    text-justify: auto;
+   
+
+}
+
+/*Parágrafo contando a sinopse do filme/série*/
+.parágrafo_sinopse {
+    color: black;
+    text-align: left;
+    margin-left: 30rem;
+    margin-right: 10rem;
+    text-justify: auto;
+    /*margin-bottom: 3rem;*/
+    text-align: justify;
+ 
+ 
+}
+
+
+     /*PAGE TRAILER*/
+
+/*Header*/
+.trailer {
+    background-image: url(../imagens/trailer.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+
+}
+
+/*Título Trailer no header*/
+.trailer_título_header {
+    color: yellow;
+    margin-top: 5rem;
+    font-size: 6rem;
+    
+
+}
+
+
+/*nome da seção filmes e séries*/
+.trailer_seção {
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    /*margin-bottom: .8rem;*/
+    background-color: rgb(248, 248, 148);
+    padding: 2rem;
+
+
+
+}
+
+/*Bloco inteiro trailer*/
+.div_trailer {
+    margin-bottom: 3rem;
+
+}
+
+/*Seção pra cada de filme e série*/
+.section_container_trailer {
+    text-align: center;
+    /*display: flex;*/
+    margin-top: 6rem;
+    /*margin-bottom: 10rem;*/
+
+
+
+}
+
+/*Div container de cada filme e série*/
+.container_trailer {
+    /*align-items: center;*/
+    /*margin-bottom: 1rem;*/
+ 
+
+}
+
+/*h2 do trailer*/
+.container_trailer h2 {
+    font-size: 1.8rem;
+
+
+}
+
+/*h2 Título de cada filme e série*/
+.trailer_nome_fs {
+    text-align: center;
+    margin-top: 0;
+    /*margin-top: 1rem;*/
+    margin-bottom: 2rem;
+
+}
+
+.trailer_nome_fs:hover {
+    transform: scale(1.1);
+    color: yellow;
+    /*color: color-mix(in srgb, red, white);*/
+
+}
+
+/*Vídeos*/
+iframe {
+    width: 500px;
+    height: 300px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+
+}
+
+     /*PAGE MAPAS*/
+
+/*Header das mapas*/
+.mapas {
+    background-image: url(../imagens/googlemaps_3.png);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+
+}
+
+/*Título Pontos Turísticos no header*/
+.mapas_título {
+    color: yellow;
+    font-size: 6rem;
+
+}
+
+/*h4 da seção mapas*/
+.h4_mapas {
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+    background-color: wheat;
+    padding: 2rem;
+    font-family: 'Merienda', cursive;
+
+}
+
+/*Bloco inteiro*/
+.div_mapas {
+    margin-bottom: 5rem;
+
+}
+
+.section_mapas {
+    margin: 1.5rem 1.5rem;
+    /*display: inline-block;*/
+    
+    
+}
+
+/*Título do f/s em mapas*/
+.h2_mapas {
+    color: black;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: .1rem;
+
+}
+
+.h2_mapas:hover {
+    /*color: black;*/
+    /*text-shadow: 2px 2px 2px yellow;*/
+    /*font-size: 2.5rem;*/
+    transform: scale(1.1);
+    color: yellow;
+
+}
+
+/*Descrição do ponto turístico*/
+.descrição_turístico {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+
+}
+
+/*Destacar parágrafo nome do ponto turístico*/
+.destaque {
+    color: yellow;
+
+}
+
+/*Article com a foto e o mapa*/
+.article_mapas {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+/*Imagem de cada ponto turístico*/
+.imagem_turística {
+    width: 500px;
+    height: 250px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px yellow;
+
+
+}
+
+/*Mapa do ponto turístico*/
+.mapa_turístico {
+    width: 500px;
+    height: 250px;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px yellow;
+
+
+}
+
+.imagem_turística:hover, .mapa_turístico:hover {
+    transform: scale(1.1);
+    margin-top: 1rem; 
+    margin-bottom: 1.5rem;
+
+}
+
+/*Áudio do f/s*/
+.audio {
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.audio p {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 2rem;
+    
+}
+
+
+
+     /*PAGE ENTRE EM CONTATO: FORMULÁRIO*/
+
+/*Header do contato*/
+.indicações_formulario {
+    background-image: url(../imagens/pergaminho4.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+    color: yellow;
+
+
+}
+
+.parágrafo_contato {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    line-height: 2rem; /*distância entre uma linha*/
+
+}
+
+fieldset {
+    /*border: none;*/
+    border: 2px solid black;
+    /*border: 3px solid yellow;*/
+    border-radius: 20px;
+
+}
+
+.section_form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+
+}
+
+.form {
+
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: yellow;
+    letter-spacing: .1rem;
+
+
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: yellow;
+    margin-left: 1rem;
+    letter-spacing: .1rem;
+
+   
+
+}
+
+input {
+    width: 60%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding: .7rem;
+    /*border: 5px;*/
+    /*border-radius: 1px solid yellow;*/
+    /*font-size: 1rem;*/
+    flex-grow: 1;
+    outline: none;
+    border: 2px solid brown;
+    border-radius: 5px;
+
+
+}
+
+input:focus {
+    outline: 2px solid yellow;
+
+}
+
+textarea {
+    resize: none;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width: 80%;
+    outline: none;
+    border: 2px solid brown;
+    border-radius: 5px;
+
+}
+
+textarea:focus {
+    outline: 2px solid yellow;
+
+}
+
+
+.btn {
+    width: 5rem;
+    padding: .6rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+
+}
+
+.btn:hover {
+    background-color: yellow;
+    transform: scale(1.1); 
+    border-radius: 5px ;
+    color: brown;
+}
+
+
 
       /*RESPONSIVIDADE CELULAR*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 
 
 .article_menu{
@@ -779,8 +782,8 @@ ul, li, a {
         
 }    
 
-    /*HOME*/
-/*Header das indicações*/
+    /*PAGE HOME*/
+/*Header Home*/
 header {
     background-image: url(../imagens/header_netflix.jpg);
     /*background-image: url(imagens/header_netflix.jpg);*/
@@ -808,7 +811,7 @@ h1 {
 }
 
 
-/*Subtítulo do header*/
+/*Subtítulo do header da home e turismo/mapas*/
 h3 {
     font-size: 2rem;
     margin-top: .1rem;
@@ -844,7 +847,8 @@ h3 {
 .autora_parágafro {
     font-size: 1rem;
     margin-left: 1.2rem;
-
+    margin-right: 1.2rem;
+    text-align: justify;
 
 }
 
@@ -853,6 +857,7 @@ span {
     color: yellow;
     font-weight: bold;
     font-size: 1rem;
+
 }
 
 
@@ -861,8 +866,7 @@ span {
     font-size: 3rem;
     margin-left: 1.2rem;
     color: rgb(141, 33, 33);
-
-
+    
 }
 
 .fa-brands:hover {
@@ -893,7 +897,7 @@ span {
 
 }
 
-    /*INDICAÇÕES*/
+    /*PAGE INDICAÇÕES*/
 
 /*Header das indicações*/
 .indicações {
@@ -1017,9 +1021,7 @@ h2:hover {
 }
 
 
-
-
-    /*TRAILER*/
+    /*PAGE TRAILER*/
 
 /*Header*/
 .trailer {
@@ -1102,6 +1104,278 @@ iframe {
     border: 2px solid yellow;
     border-radius: 20px;
 
+}
+
+    /*PAGE MAPAS*/
+
+/*Header das mapas*/
+.mapas {
+    background-image: url(../imagens/googlemaps_3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+
+}
+
+.mapas_título {
+    color: yellow;
+    font-size: 4rem;
+
+}
+
+/*h4 da seção mapas*/
+.h4_mapas {
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+    background-color: wheat;
+    padding: 2rem;
+    font-family: 'Merienda', cursive;
+
+}
+
+/*Bloco inteiro*/
+.div_mapas {
+    margin-bottom: 5rem;
+
+}
+
+.section_mapas {
+    /*margin: 1.5rem 1.5rem;*/
+    margin: auto;
+    /*display: inline-block;*/
+    
+    
+}
+
+/*Título do f/s em mapas*/
+.h2_mapas {
+    color: black;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: .1rem;
+
+}
+
+.h2_mapas:hover {
+    /*color: black;*/
+    /*text-shadow: 2px 2px 2px yellow;*/
+    /*font-size: 2.5rem;*/
+    transform: none;
+    color: yellow;
+
+}
+
+/*Descrição do ponto turístico*/
+.descrição_turístico {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+
+}
+
+/*Destacar parágrafo nome do ponto turístico*/
+.destaque {
+    color: yellow;
+
+}
+
+/*Article com a foto e o mapa*/
+.article_mapas {
+    flex-direction: column;
+    /*display: flex;*/
+    justify-content: center;
+    
+
+
+}
+
+/*Imagem de cada ponto turístico*/
+.imagem_turística {
+    width: 500px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px yellow;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+
+}
+
+/*Mapa do ponto turístico*/
+.mapa_turístico {
+    width: 500px;
+    height: 250px;
+    /*margin-left: 5rem;
+    margin-right: 2rem;*/
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px yellow;
+    /*margin-bottom: 1rem;
+    margin-top: 1rem;*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.imagem_turística:hover, .mapa_turístico:hover {
+    transform: none;
+    /*margin-top: 1rem; 
+    margin-bottom: 1.5rem;*/
+
+}
+
+/*Áudio do f/s*/
+.audio {
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.audio p {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 2rem;
+    
+}
+
+
+    /*PAGE ENTRE EM CONTATO: FORMULÁRIO*/
+
+/*Header do contato*/
+.indicações_formulario {
+    background-image: url(../imagens/pergaminho4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+    color: yellow;
+    font-size: 2.5rem;
+
+
+}
+
+.parágrafo_contato {
+    margin: 1.9rem;
+    /*margin-top: 2rem;
+    margin-left: 2rem;*/
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    line-height: 2rem; /*distância entre uma linha*/
+
+}
+
+fieldset {
+    /*border: none;*/
+    border: 2px solid black;
+    /*border: 3px solid yellow;*/
+    border-radius: 20px;
+
+}
+
+.section_form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    max-width: 90%;
+    margin: auto;
+
+}
+
+.form {
+
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: yellow;
+    letter-spacing: .1rem;
+
+
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: yellow;
+    margin-left: 1rem;
+    letter-spacing: .1rem;
+
+   
+
+}
+
+input {
+    width: 60%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding: .7rem;
+    /*border: 5px;*/
+    /*border-radius: 1px solid yellow;*/
+    /*font-size: 1rem;*/
+    flex-grow: 1;
+    outline: none;
+    border: 2px solid brown;
+    border-radius: 5px;
+
+
+}
+
+input:focus {
+    outline: 2px solid yellow;
+
+}
+
+textarea {
+    resize: none;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width: 80%;
+    outline: none;
+    border: 2px solid brown;
+    border-radius: 5px;
+
+}
+
+textarea:focus {
+    outline: 2px solid yellow;
+
+}
+
+
+.btn {
+    width: 5rem;
+    padding: .6rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+
+}
+
+.btn:hover {
+    background-color: yellow;
+    transform: scale(1.1); 
+    border-radius: 5px ;
+    color: brown;
 }
 
 
