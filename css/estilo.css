@@ -435,6 +435,20 @@ iframe {
 
 }
 
+/*Áudio do f/s*/
+.audio {
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.audio p {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 2rem;
+    
+}
+
 
 
      /*ENTRE EM CONTATO*/
