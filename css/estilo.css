@@ -607,10 +607,12 @@ textarea:focus {
 
 }
 
+
 /*Meu nome e meus contatos*/
 span {
     color: yellow;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 
@@ -625,6 +627,29 @@ span {
 
 .fa-brands:hover {
     color: yellow;
+}
+
+/*Meu portfólio*/
+.btn_portfólio {
+    color: black;
+    line-height: 1px;
+    background-color: rgba(143, 28, 28, 0.555);
+    font-size:  1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 1.1rem;
+    margin-top: 1rem;
+
+}
+
+.btn_portfólio:hover {
+    background-color: yellow;
+    color: black;
+
+
 }
 
 
@@ -792,6 +817,81 @@ h3 {
 
 }
 
+  /*AUTORA*/
+
+/*div sobre a autora*/
+.sobre_autora {
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    background-color: rgba(192, 75, 75, 0.555);
+    padding-bottom: 2rem;
+    padding-top: .3rem;
+    text-align: justify;
+
+
+}
+
+.autora {
+    color: black;
+    letter-spacing: 1px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.autora_parágafro {
+    font-size: 1rem;
+    margin-left: 1.2rem;
+
+
+}
+
+/*Meu nome e meus contatos*/
+span {
+    color: yellow;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+/*ícones linkedin e github*/
+.fa-brands, .fa-linkedin, .fa-github {
+    font-size: 3rem;
+    margin-left: 1.2rem;
+    color: rgb(141, 33, 33);
+
+
+}
+
+.fa-brands:hover {
+    color: none;
+}
+
+/*Meu portfólio*/
+.btn_portfólio {
+    color: black;
+    line-height: 1px;
+    background-color: rgba(143, 28, 28, 0.555);
+    font-size:  1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 1.1rem;
+    margin-top: 1rem;
+    
+
+}
+
+.btn_portfólio:hover {
+    background-color: yellow;
+    color: black;
+
+
+}
 
     /*INDICAÇÕES*/
 
