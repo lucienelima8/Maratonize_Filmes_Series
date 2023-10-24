@@ -85,6 +85,27 @@ h3 {
 
 }
 
+
+/*Logo cada page*/
+.imagem_logo {
+    width: 3em;
+    height: 3em;
+    float: left;
+    /*max-width: 5em;*/
+    margin: .2em .3em;
+    opacity: .7;
+    border: 2px solid brown;
+    border-radius: 15px;
+    
+}
+
+/*Descrição da criação do site na home*/
+.descrição_site {
+    font-size: 1rem;
+    margin-left: 1.2rem;
+
+}
+
      /*AUTORA*/
 
 /*div sobre a autora*/
@@ -98,6 +119,7 @@ h3 {
 
 }
 
+/*nome da seção*/
 .autora {
     color: black;
     letter-spacing: 1px;
@@ -748,7 +770,8 @@ textarea:focus {
     
 ul, li, a {
     cursor: pointer;
-    display: inline-block; /*se usasse o li no lugar do ul: display:inline-block*/
+    display: inline;
+    /*display: inline-block; /*se usasse o li no lugar do ul: display:inline-block*/
     text-decoration: none; /*tirar sublinhado*/
     list-style-type: none; /*pra tirar o budgets*/
     gap: .6rem; /*espaço entre linhas */
@@ -757,7 +780,9 @@ ul, li, a {
     font-weight: bold;
     letter-spacing: 1px;
     padding-bottom: 1px;
-    font-size: .7rem;
+    /*font-size: .7rem;*/
+    font-size: .6rem;
+
 }
     
 .menu {
@@ -772,6 +797,7 @@ ul, li, a {
     margin-top: .0;
     /*margin-top: 0.2rem;*/
     /*margin-right: 1rem;*/
+  
     
 }
     
@@ -801,6 +827,7 @@ header {
 h1, h3 {
     text-align: center;
     color: yellow;
+
 }
 
 /*Título header*/
@@ -808,6 +835,7 @@ h1 {
     font-size: 3rem;
     margin-top: .1rem;
     margin-bottom: 0;
+    
 }
 
 
@@ -817,6 +845,27 @@ h3 {
     margin-top: .1rem;
     margin-bottom: 2rem;
     /*border: 1px solid yellow;*/
+
+}
+
+
+/*Logo cada page*/
+.imagem_logo {
+    width: 2em;
+    height: 2em;
+    float: left;
+    /*max-width: 5em;*/
+    margin: auto;
+    opacity: .7;
+    border: 2px solid brown;
+    border-radius: 15px;
+    
+}
+
+/*Descrição da criação do site na home*/
+.descrição_site {
+    font-size: 1rem;
+    margin-left: 1.2rem;
 
 }
 
@@ -1123,6 +1172,7 @@ iframe {
 
 .mapas_título {
     color: yellow;
+    margin-top: auto;
     font-size: 4rem;
 
 }
@@ -1260,15 +1310,15 @@ iframe {
     margin: 0;
     border-radius: 5px;
     color: yellow;
-    font-size: 2.5rem;
+    /*font-size: 2.5rem;*/
 
 
 }
 
 .parágrafo_contato {
     margin: 1.9rem;
-    /*margin-top: 2rem;
-    margin-left: 2rem;*/
+    /*margin-top: 4rem;*/
+    /*margin-left: 2rem;*/
     text-align: center;
     font-size: 1rem;
     font-weight: bolder;
