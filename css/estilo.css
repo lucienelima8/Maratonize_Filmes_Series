@@ -2,6 +2,7 @@
 
 body {
     background-color: brown;
+
 }
 
      /*PAGE HOME*/
@@ -20,13 +21,26 @@ header {
 
 }
 
+/*Logo cada page*/
+.imagem_logo {
+    width: 3em;
+    height: 3em;
+    float: left;
+    /*max-width: 5em;*/
+    margin: .2em .3em;
+    opacity: .7;
+    border: 2px solid brown;
+    border-radius: 15px;
+    
+}
+
 .article_menu{
-    text-align: center;
+    /*text-align: center;*/
 }
 
 ul, li, a {
     cursor: pointer;
-    display: inline-block; /*se usasse o li no lugar do ul: display:inline-block*/
+    /*display: inline-block;*/
     text-decoration: none; /*tirar sublinhado*/
     list-style-type: none; /*pra tirar o budgets*/
     gap: .6rem; /*espaço entre linhas */
@@ -36,10 +50,16 @@ ul, li, a {
     letter-spacing: 1px;
     padding-bottom: 1px;
     font-size: 1rem;
+
 }
 
+/*elemento pai*/
 .menu {
-    /*justify-content: right;*/
+    justify-content: center;
+    display: flex;
+    margin-top: 0;
+    padding-top: 1em;
+
 
 }
 
@@ -49,13 +69,13 @@ ul, li, a {
     border-radius: 15px;
     margin-top: 0;
     /*margin-top: 0.2rem;*/
-    margin-right: 1rem;
+    /*margin-right: 1rem;*/
+    
 
 }
 
 .menu a:hover {
     background-color: brown;
-    
     /*background-color: red;*/
     transform: scale(1.1); 
 
@@ -86,18 +106,6 @@ h3 {
 }
 
 
-/*Logo cada page*/
-.imagem_logo {
-    width: 3em;
-    height: 3em;
-    float: left;
-    /*max-width: 5em;*/
-    margin: .2em .3em;
-    opacity: .7;
-    border: 2px solid brown;
-    border-radius: 15px;
-    
-}
 
 /*Descrição da criação do site na home*/
 .descrição_site {
@@ -763,15 +771,27 @@ textarea:focus {
 
 @media screen and (max-width: 700px) {
 
+/*Logo cada page*/
+.imagem_logo {
+    width: 2em;
+    height: 2em;
+    float: left;
+    /*max-width: 5em;*/
+    margin: auto;
+    opacity: .7;
+    border: 2px solid brown;
+    border-radius: 15px;
+    
+}
 
 .article_menu{
     text-align: center;
+
 }
     
 ul, li, a {
     cursor: pointer;
     display: inline;
-    /*display: inline-block; /*se usasse o li no lugar do ul: display:inline-block*/
     text-decoration: none; /*tirar sublinhado*/
     list-style-type: none; /*pra tirar o budgets*/
     gap: .6rem; /*espaço entre linhas */
@@ -783,10 +803,15 @@ ul, li, a {
     /*font-size: .7rem;*/
     font-size: .6rem;
 
+
 }
-    
+  
+/*elemento pai*/
 .menu {
     /*justify-content: right;*/
+    display: inline;
+    padding-top: 1em;
+    
     
 }
     
@@ -848,19 +873,6 @@ h3 {
 
 }
 
-
-/*Logo cada page*/
-.imagem_logo {
-    width: 2em;
-    height: 2em;
-    float: left;
-    /*max-width: 5em;*/
-    margin: auto;
-    opacity: .7;
-    border: 2px solid brown;
-    border-radius: 15px;
-    
-}
 
 /*Descrição da criação do site na home*/
 .descrição_site {
