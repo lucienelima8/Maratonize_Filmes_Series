@@ -158,8 +158,7 @@ span {
     font-size: 3rem;
     margin-left: 1.2rem;
     color: rgb(141, 33, 33);
-
-
+    
 }
 
 .fa-brands:hover {
@@ -185,10 +184,8 @@ span {
 .btn_portfólio:hover {
     background-color: yellow;
     color: black;
-
-
+    
 }
-
 
 
      /*CRÉDITOS*/
@@ -200,7 +197,7 @@ span {
     margin-top: .5rem;
     margin-bottom: .5rem;
     margin-left: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 
 }
 
@@ -214,15 +211,15 @@ span {
 
 }
 
+/*a href de cada referência/crédito*/
 .créditos_links {
-    color: yellow;
-    line-height: 1px;
-
-}
-
-.créditos_link a {
+    color: rgba(255, 255, 0, 0.781);
+    line-height: 1rem;
+    font-size: 1.1rem;
+    font-weight: lighter; /*tirar um pouco do negrito*/
     
 }
+
 
 
      /*BOTÃO PRA SUBIR A PÁGINA*/
@@ -647,7 +644,7 @@ iframe {
 
 
 
-     /*PAGE ENTRE EM CONTATO: FORMULÁRIO*/
+     /*PAGE CONTATO: FORMULÁRIO*/
 
 /*Header do Formulário*/
 .header_formulario {
@@ -951,7 +948,8 @@ span {
 .btn_portfólio {
     color: black;
     line-height: 1px;
-    background-color: rgba(143, 28, 28, 0.555);
+    background-color: rgb(141, 33, 33);
+    /*background-color: rgba(143, 28, 28, 0.555);*/
     font-size:  1rem;
     border: 1px solid black;
     padding: 1rem;
@@ -959,7 +957,7 @@ span {
     text-decoration: none;
     font-weight: bold;
     margin-left: 1.1rem;
-    margin-top: 1rem;
+    margin-top: 0;
     
 
 }
@@ -970,6 +968,38 @@ span {
 
 
 }
+
+  /*CRÉDITOS*/
+
+/*nome créditos*/     
+.créditos {
+    color: black;
+    letter-spacing: 1px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+
+}
+
+
+.div_créditos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 40vh;
+    background-color: rgba(143, 28, 28, 0.555);
+    margin-bottom: 0;
+
+}
+
+.créditos_links {
+    color: rgba(255, 255, 0, 0.781);
+    font-size: 1rem;
+    line-height: 1.1rem;
+    font-weight: lighter; /*tirar um pouco do negrito*/
+    
+}
+
 
     /*PAGE INDICAÇÕES*/
 
