@@ -605,6 +605,8 @@ iframe {
 .article_mapas {
     display: flex;
     justify-content: center;
+    width: 100%;
+
 
 
 }
@@ -1329,6 +1331,7 @@ iframe {
     flex-direction: column;
     /*display: flex;*/
     justify-content: center; 
+    width: 100%;
     
 
 }
