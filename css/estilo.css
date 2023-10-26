@@ -21,10 +21,10 @@ header {
 
 }
 
-/*Logo cada page*/
+/*Logo pra cada page clicável pra Home*/
 .imagem_logo {
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     float: left;
     /*max-width: 5em;*/
     margin: .2em .3em;
@@ -36,6 +36,7 @@ header {
 
 .article_menu{
     /*text-align: center;*/
+
 }
 
 ul, li, a {
@@ -59,6 +60,7 @@ ul, li, a {
     display: flex;
     margin-top: 0;
     padding-top: 1em;
+
 
 
 }
@@ -201,7 +203,6 @@ span {
 
 }
 
-
 .div_créditos {
     display: flex;
     flex-wrap: wrap;
@@ -211,15 +212,17 @@ span {
 
 }
 
+
 /*a href de cada referência/crédito*/
 .créditos_links {
     color: rgba(255, 255, 0, 0.781);
     line-height: 1rem;
     font-size: 1.1rem;
     font-weight: lighter; /*tirar um pouco do negrito*/
+    margin: auto;
+
     
 }
-
 
 
      /*BOTÃO PRA SUBIR A PÁGINA*/
@@ -781,7 +784,7 @@ textarea:focus {
 
 @media screen and (max-width: 700px) {
 
-/*Logo cada page*/
+/*Logo pra cada page clicável pra Home*/
 .imagem_logo {
     width: 2em;
     height: 2em;
@@ -991,6 +994,7 @@ span {
     margin-bottom: 0;
 
 }
+
 
 .créditos_links {
     color: rgba(255, 255, 0, 0.781);
