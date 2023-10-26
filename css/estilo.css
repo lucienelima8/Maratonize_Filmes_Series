@@ -49,7 +49,7 @@ ul, li, a {
     font-weight: bold;
     letter-spacing: 1px;
     padding-bottom: 1px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 
 }
 
@@ -95,7 +95,7 @@ h1 {
 }
 
 
-/*Subtítulo do header*/
+/*Subtítulo do header Home*/
 h3 {
     font-size: 3rem;
     margin-top: .1rem;
@@ -525,6 +525,15 @@ iframe {
 
 }
 
+/*Subtítulo header: Fotos, mapas e músicas*/
+.mapas_subtítulo {
+    font-size: 3rem;
+    margin-top: .1rem;
+    margin-bottom: 2rem;
+  
+
+}
+
 /*h4 da seção mapas*/
 .h4_mapas {
     color: red;
@@ -640,23 +649,30 @@ iframe {
 
      /*PAGE ENTRE EM CONTATO: FORMULÁRIO*/
 
-/*Header do contato*/
-.indicações_formulario {
+/*Header do Formulário*/
+.header_formulario {
     background-image: url(../imagens/pergaminho4.jpg);
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 400px;
     width: 100%;
     margin: 0;
     border-radius: 5px;
-    color: yellow;
 
 
 }
 
+/*Título formulário*/
+.indicações_formulario {
+    color: yellow;
+    font-size: 6rem;
+
+}
+
+/*Falando que a page foi montada...*/
 .parágrafo_contato {
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-left: 2rem;
     text-align: center;
     font-size: 1.2rem;
@@ -682,10 +698,7 @@ fieldset {
 
 }
 
-.form {
-
-}
-
+/*Título: indique um f/s*/
 legend {
     font-weight: bold;
     font-size: 1.2rem;
@@ -695,7 +708,7 @@ legend {
 
 
 }
-
+/*Nome de cada campo*/
 label {
     font-weight: bold;
     font-size: 1.1rem;
@@ -803,15 +816,14 @@ ul, li, a {
     /*font-size: .7rem;*/
     font-size: .6rem;
 
-
 }
   
 /*elemento pai*/
 .menu {
-    /*justify-content: right;*/
-    display: inline;
+    /*justify-content: center;*/
+    /*display: inline;*/
     padding-top: 1em;
-    
+   
     
 }
     
@@ -822,6 +834,7 @@ ul, li, a {
     margin-top: .0;
     /*margin-top: 0.2rem;*/
     /*margin-right: 1rem;*/
+    /*align-self: center; /*pra sobrescrever itens individuais*/
   
     
 }
@@ -848,7 +861,7 @@ header {
 
 }
 
-/*Título e subtítulo*/
+/*h1:Título e h3:subtítulo*/
 h1, h3 {
     text-align: center;
     color: yellow;
@@ -858,13 +871,13 @@ h1, h3 {
 /*Título header*/
 h1 {
     font-size: 3rem;
-    margin-top: .1rem;
+    margin-top: 2rem;
     margin-bottom: 0;
     
 }
 
 
-/*Subtítulo do header da home e turismo/mapas*/
+/*Subtítulo do header da home*/
 h3 {
     font-size: 2rem;
     margin-top: .1rem;
@@ -977,7 +990,8 @@ span {
 .indicações_título {
     color: yellow;
     font-size: 3rem;
-    margin-top: auto;
+    margin-top: 2rem;
+    margin-bottom: 0;
 
 }
 
@@ -1100,10 +1114,10 @@ h2:hover {
 /*Trailer no header*/
 .trailer_título_header {
     color: yellow;
-    margin-top: auto;
-    font-size: 4rem;
-    
-
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+   
 }
 
 
@@ -1124,7 +1138,7 @@ h2:hover {
 /*Seção pra cada de filme e série*/
 .section_container_trailer {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 
 }
 
@@ -1169,7 +1183,7 @@ iframe {
 
     /*PAGE MAPAS*/
 
-/*Header das mapas*/
+/*Header dos mapas*/
 .mapas {
     background-image: url(../imagens/googlemaps_3.png);
     background-size: cover;
@@ -1182,14 +1196,25 @@ iframe {
 
 }
 
+/*h1: Título Pontos Turísticos -fotos, mapas e músicas*/
 .mapas_título {
     color: yellow;
-    margin-top: auto;
-    font-size: 4rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
 
 }
 
-/*h4 da seção mapas*/
+/*Subtítulo header: Fotos, mapas e músicas*/
+.mapas_subtítulo {
+    font-size: 2rem;
+    margin-top: .1rem;
+    margin-bottom: 2rem;
+  
+
+}
+
+/*h4 da seção mapas: Alguns pontos turísticos...*/
 .h4_mapas {
     color: red;
     text-align: center;
@@ -1212,6 +1237,7 @@ iframe {
     /*margin: 1.5rem 1.5rem;*/
     margin: auto;
     /*display: inline-block;*/
+    
     
     
 }
@@ -1311,13 +1337,13 @@ iframe {
 
     /*PAGE ENTRE EM CONTATO: FORMULÁRIO*/
 
-/*Header do contato*/
-.indicações_formulario {
+/*Header do formulário*/
+.header_formulario {
     background-image: url(../imagens/pergaminho4.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100px;
+    height: 200px;
     width: 100%;
     margin: 0;
     border-radius: 5px;
@@ -1327,10 +1353,18 @@ iframe {
 
 }
 
+/*Título formulário*/
+.indicações_formulario {
+    color: yellow;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+
+}
+
+/*Falando que a page foi montada...*/
 .parágrafo_contato {
-    margin: 1.9rem;
-    /*margin-top: 4rem;*/
-    /*margin-left: 2rem;*/
+    margin: .1rem 1.9rem;
     text-align: center;
     font-size: 1rem;
     font-weight: bolder;
@@ -1343,6 +1377,7 @@ fieldset {
     border: 2px solid black;
     /*border: 3px solid yellow;*/
     border-radius: 20px;
+    margin-top: 1rem;
 
 }
 
@@ -1357,10 +1392,7 @@ fieldset {
 
 }
 
-.form {
-
-}
-
+/*Título: indique um f/s*/
 legend {
     font-weight: bold;
     font-size: 1.2rem;
@@ -1371,14 +1403,14 @@ legend {
 
 }
 
+/*Nome de cada campo*/
 label {
     font-weight: bold;
     font-size: 1.1rem;
     color: yellow;
     margin-left: 1rem;
     letter-spacing: .1rem;
-
-   
+  
 
 }
 
