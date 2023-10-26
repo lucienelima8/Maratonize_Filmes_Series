@@ -200,15 +200,19 @@ span {
     margin-bottom: .5rem;
     margin-left: 1rem;
     font-size: 1.1rem;
+    text-decoration: underline;
 
 }
 
+
+
 .div_créditos {
-    display: flex;
+    display: flexbox;
     flex-wrap: wrap;
     flex-basis: 40vh;
-    background-color: rgba(143, 28, 28, 0.555);
-    margin-bottom: 0;
+    /*background-color: rgba(143, 28, 28, 0.555);*/
+    margin-bottom: 2.2rem;
+
 
 }
 
@@ -216,13 +220,16 @@ span {
 /*a href de cada referência/crédito*/
 .créditos_links {
     color: rgba(255, 255, 0, 0.781);
-    line-height: 1rem;
+    line-height: 2rem;
     font-size: 1.1rem;
     font-weight: lighter; /*tirar um pouco do negrito*/
     margin: auto;
-
+    margin-left: 8rem;
+    text-decoration: underline;
+  
     
 }
+
 
 
      /*BOTÃO PRA SUBIR A PÁGINA*/
@@ -987,11 +994,13 @@ span {
 
 
 .div_créditos {
-    display: flex;
+    display: flexbox;
     flex-wrap: wrap;
     flex-basis: 40vh;
-    background-color: rgba(143, 28, 28, 0.555);
-    margin-bottom: 0;
+    /*background-color: rgba(143, 28, 28, 0.555);*/
+    margin-bottom: 1rem;
+    /*text-align: center;*/
+
 
 }
 
@@ -1001,6 +1010,9 @@ span {
     font-size: 1rem;
     line-height: 1.1rem;
     font-weight: lighter; /*tirar um pouco do negrito*/
+    justify-content: center;
+    text-decoration: none;
+
     
 }
 
