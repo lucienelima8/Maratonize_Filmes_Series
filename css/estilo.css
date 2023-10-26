@@ -557,12 +557,14 @@ iframe {
 /*Bloco inteiro*/
 .div_mapas {
     margin-bottom: 5rem;
+    
 
 }
 
 .section_mapas {
     margin: 1.5rem 1.5rem;
     /*display: inline-block;*/
+
     
     
 }
@@ -1276,6 +1278,8 @@ iframe {
 /*Bloco inteiro*/
 .div_mapas {
     margin-bottom: 5rem;
+   
+
 
 }
 
@@ -1324,9 +1328,8 @@ iframe {
 .article_mapas {
     flex-direction: column;
     /*display: flex;*/
-    justify-content: center;
+    justify-content: center; 
     
-
 
 }
 
@@ -1340,6 +1343,7 @@ iframe {
     box-shadow: 3px 3px 3px 3px yellow;
     margin-bottom: 1rem;
     margin-top: 1rem;
+
 
 
 }
@@ -1356,6 +1360,7 @@ iframe {
     margin-top: 1rem;*/
     margin-left: auto;
     margin-right: auto;
+    
 
 }
 
