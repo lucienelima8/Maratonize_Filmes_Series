@@ -17,8 +17,6 @@ header {
     margin: 0;
     border-radius: 5px;
 
-    
-
 }
 
 /*Logo pra cada page clicável pra Home*/
@@ -29,9 +27,17 @@ header {
     /*max-width: 5em;*/
     margin: .2em .3em;
     opacity: .7;
-    border: 2px solid brown;
+    /*border: 2px solid brown;*/
+    border: 2px solid yellow;
     border-radius: 15px;
+    transform: scale(1);
+    transition: transform 0.6s ease-in-out;
     
+}
+
+.imagem_logo:hover {
+    transform: scale(1.1);
+    transition: transform 0.6s ease-in-out;
 }
 
 .article_menu{
@@ -116,7 +122,7 @@ h3 {
 
 }
 
-     /*AUTORA*/
+/*Autora*/
 
 /*div sobre a autora*/
 .sobre_autora {
@@ -167,7 +173,7 @@ span {
     color: yellow;
 }
 
-/*Meu portfólio*/
+/*Botão Meu portfólio*/
 .btn_portfólio {
     color: black;
     line-height: 1px;
@@ -190,7 +196,7 @@ span {
 }
 
 
-     /*CRÉDITOS*/
+/*Créditos*/
 
 /*nome créditos*/     
 .créditos {
@@ -232,7 +238,7 @@ span {
 
 
 
-     /*BOTÃO PRA SUBIR A PÁGINA*/
+/*Botão pra subir a página*/
 
 /*img seta: flaticon.com*/
 #up {
@@ -256,7 +262,7 @@ span {
 }
 
 
-     /*RODAPÉ*/
+/*Rodapé*/
 
 footer {
     color: black;
@@ -803,9 +809,18 @@ textarea:focus {
     /*max-width: 5em;*/
     margin: auto;
     opacity: .7;
-    border: 2px solid brown;
+    border: 2px solid yellow;
     border-radius: 15px;
+    transform: none;
+    transition: none;
+    margin: .3rem;
+
     
+}
+
+.imagem_logo:hover {
+    transform: none;
+    transition: none;
 }
 
 .article_menu{
@@ -905,7 +920,7 @@ h3 {
 
 }
 
-  /*AUTORA*/
+/*Autora*/
 
 /*div sobre a autora*/
 .sobre_autora {
@@ -958,7 +973,7 @@ span {
     color: none;
 }
 
-/*Meu portfólio*/
+/*Botão Meu portfólio*/
 .btn_portfólio {
     color: black;
     line-height: 1px;
@@ -983,7 +998,7 @@ span {
 
 }
 
-  /*CRÉDITOS*/
+/*Créditos*/
 
 /*nome créditos*/     
 .créditos {
