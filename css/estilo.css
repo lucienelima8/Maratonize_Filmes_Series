@@ -42,6 +42,9 @@ header {
 
 .article_menu{
     /*text-align: center;*/
+    display: flex;
+    justify-content: center;
+
 
 }
 
@@ -824,7 +827,9 @@ textarea:focus {
 }
 
 .article_menu{
-    text-align: center;
+    /*text-align: center;*/
+    justify-content: center;
+    display: flex;
 
 }
     
