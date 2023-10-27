@@ -154,6 +154,32 @@ h3 {
 
 }
 
+/*Botão interno para o formulário*/
+.btn_formulário {
+    background-color: rgba(143, 28, 28, 0.555);
+    color: black;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    padding: .7rem;
+    border-radius: 5px;
+    font-size: .8rem;
+    font-weight: bolder;
+    border: 1px solid black;
+
+
+}
+
+.btn_formulário:hover {
+    background-color: yellow;
+    transform: scale(1.1);
+    border: 1px solid black;
+    color: black;
+    
+
+}
+
+
 
 /*Meu nome e meus contatos*/
 span {
@@ -200,11 +226,23 @@ span {
 
 /*Créditos*/
 
+.div_créditos {
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-basis: 40vh;
+    background-color: rgba(143, 28, 28, 0.555);
+    margin-bottom: 2.2rem;
+    padding: 1rem;
+
+
+
+}
+
 /*nome créditos*/     
 .créditos {
     color: black;
     letter-spacing: 1px;
-    margin-top: .5rem;
+    margin-top: 0;
     margin-bottom: .5rem;
     margin-left: 1rem;
     font-size: 1.1rem;
@@ -212,17 +250,6 @@ span {
 
 }
 
-
-
-.div_créditos {
-    display: flexbox;
-    flex-wrap: wrap;
-    flex-basis: 40vh;
-    /*background-color: rgba(143, 28, 28, 0.555);*/
-    margin-bottom: 2.2rem;
-
-
-}
 
 
 /*a href de cada referência/crédito*/
@@ -420,10 +447,20 @@ h2:hover {
  
 }
 
-/*Streamings*/  
+/*Streamings*/ 
+/*bloco inteiro do streaming*/
+.div_streaming {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(143, 28, 28, 0.555);
+    padding: 15px;
+
+}
+
 .imagem_streaming {
     width: 50px;
-    margin-left: 2rem;
+    height: 50px;
+    /*margin-left: 2rem;*/
     background-color: yellow;
     border-radius: 20%;
 
@@ -442,7 +479,7 @@ h2:hover {
 }
 
 .btn_streaming {
-    display: inline-block;
+    /*display: inline-block;*/
     background-color: #ccc;
     color: black;
     margin-top: 1rem;
@@ -1001,6 +1038,31 @@ h3 {
 
 }
 
+/*Botão interno para o formulário*/
+.btn_formulário {
+    background-color: rgba(143, 28, 28, 0.555);
+    color: black;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    padding: .7rem;
+    border-radius: 5px;
+    font-size: .8rem;
+    font-weight: bolder;
+    border: 1px solid black;
+
+
+}
+
+.btn_formulário:hover {
+    background-color: yellow;
+    transform: scale(1.1);
+    border: 1px solid black;
+    color: black;
+    
+
+}
+
 /*Meu nome e meus contatos*/
 span {
     color: yellow;
@@ -1048,19 +1110,6 @@ span {
 }
 
 /*Créditos*/
-
-/*nome créditos*/     
-.créditos {
-    color: black;
-    letter-spacing: 1px;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-    margin-left: 1rem;
-    font-size: 1.1rem;
-
-}
-
-
 .div_créditos {
     display: flexbox;
     flex-wrap: wrap;
@@ -1068,10 +1117,20 @@ span {
     /*background-color: rgba(143, 28, 28, 0.555);*/
     margin-bottom: 1rem;
     /*text-align: center;*/
-
+    padding: 1rem;
 
 }
 
+/*nome créditos*/   
+.créditos {
+    color: black;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+
+}
 
 .créditos_links {
     color: rgba(255, 255, 0, 0.781);
@@ -1089,7 +1148,7 @@ span {
 
 /*Header das indicações*/
 .indicações {
-    background-image: url(../imagens/indicacoes.jpg); ;
+    background-image: url(../imagens/indicacoes.jpg); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1207,6 +1266,65 @@ h2:hover {
     margin-bottom: 3rem;
   
  
+}
+
+/*Streamings*/  
+/*bloco inteiro do streaming*/
+.div_streaming {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(143, 28, 28, 0.555);
+    padding: 15px;
+
+}
+
+.imagem_streaming {
+    width: 40px;
+    height: 40px;
+    /*margin-left: 2rem;*/
+    background-color: yellow;
+    border-radius: 20%;
+
+}
+
+.texto_streaming {
+    color: black;
+    letter-spacing: 1px;
+    margin-top: .2rem;
+    margin-bottom: .5rem;
+    /*margin-left: 2rem;*/
+    font-size: 1.1rem;
+    /*text-decoration: underline;*/
+
+
+}
+
+.btn_streaming {
+    display: inline-block;
+    /*background-color: #ccc;*/
+    /*color: black;*/
+    margin-top: .5rem;
+    /*margin-left: 2rem;*/
+    margin-bottom: 2rem;
+    padding: .5rem;
+    border-radius: 15px;
+    font-size: .7rem;
+    font-weight: bolder;
+    /*border: 2px solid yellow;*/
+    background-color: yellow;
+    border: 2px solid black;
+    color: red;
+
+
+}
+
+.btn_streaming:hover {
+    /*background-color: yellow;*/
+    transform: none;
+    /*border: 2px solid black;*/
+    /*color: red;*/
+
 }
 
 
