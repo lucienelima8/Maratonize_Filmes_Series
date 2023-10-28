@@ -652,9 +652,8 @@ iframe {
 }
 
 .section_mapas {
-    margin: 1.5rem 1.5rem;
+    /*margin: 1.5rem 1.5rem;*/
     /*display: inline-block;*/
-
     
     
 }
@@ -696,6 +695,8 @@ iframe {
     display: flex;
     justify-content: center;
     width: 100%;
+    justify-content: space-around;
+
 
 
 
@@ -881,7 +882,7 @@ textarea:focus {
 
 
 
-      /*RESPONSIVIDADE CELULAR*/
+      /*RESPONSIVIDADE TABLET*/
 
 @media screen and (max-width: 768px) {
 
@@ -1276,7 +1277,7 @@ h2:hover {
     text-align: center;
     background-color: rgba(143, 28, 28, 0.555);
     padding: 15px;
-    width: 100%;
+    /*width: 100%;*/
 
 }
 
@@ -1469,10 +1470,11 @@ iframe {
 }
 
 .section_mapas {
-    /*margin: 1.5rem 1.5rem;*/
-    margin: auto;
+    margin: 1.5rem 1.5rem;
+    /*margin: auto;*/
     /*display: inline-block;*/
-    
+
+   
     
     
 }
@@ -1513,8 +1515,11 @@ iframe {
 .article_mapas {
     flex-direction: column;
     /*display: flex;*/
-    justify-content: center; 
+    /*justify-content: center;*/
     width: 100%;
+    justify-content: space-around;
+
+
     
 
 }
@@ -1523,8 +1528,8 @@ iframe {
 .imagem_turística {
     width: 400px;
     height: 250px;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
     border-radius: 20px;
     box-shadow: 3px 3px 3px 3px yellow;
     margin-bottom: 1rem;
@@ -1542,10 +1547,10 @@ iframe {
     margin-right: 2rem;*/
     border-radius: 20px;
     box-shadow: 3px 3px 3px 3px yellow;
-    /*margin-bottom: 1rem;
-    margin-top: 1rem;*/
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    /*margin-left: auto;
+    margin-right: auto;*/
     
 
 }
