@@ -883,7 +883,7 @@ textarea:focus {
 
       /*RESPONSIVIDADE CELULAR*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
 
 /*Logo pra cada page clicável pra Home*/
 .imagem_logo {
@@ -1276,6 +1276,7 @@ h2:hover {
     text-align: center;
     background-color: rgba(143, 28, 28, 0.555);
     padding: 15px;
+    width: 100%;
 
 }
 
@@ -1520,7 +1521,7 @@ iframe {
 
 /*Imagem de cada ponto turístico*/
 .imagem_turística {
-    width: 500px;
+    width: 400px;
     height: 250px;
     margin-left: auto;
     margin-right: auto;
@@ -1535,7 +1536,7 @@ iframe {
 
 /*Mapa do ponto turístico*/
 .mapa_turístico {
-    width: 500px;
+    width: 400px;
     height: 250px;
     /*margin-left: 5rem;
     margin-right: 2rem;*/
@@ -1549,10 +1550,16 @@ iframe {
 
 }
 
-.imagem_turística:hover, .mapa_turístico:hover {
+.imagem_turística:hover {
     transform: none;
     /*margin-top: 1rem; 
     margin-bottom: 1.5rem;*/
+
+}
+
+.mapa_turístico:hover {
+    transform: none;
+
 
 }
 
@@ -1711,5 +1718,8 @@ textarea:focus {
 
 
 }
+
+
+
 
 /*Esse trabalho foi feito por Luciene Lima*/
