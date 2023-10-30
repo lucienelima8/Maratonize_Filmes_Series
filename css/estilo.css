@@ -1144,6 +1144,29 @@ span {
     
 }
 
+/*Botão pra subir a página*/
+
+/*img seta: flaticon.com*/
+#up {
+	position: fixed;
+	bottom: .7rem;
+	right: 0px;
+
+}
+
+.button_seta {
+    background-color: #cccccc17;
+    border-radius: 10%;
+    margin-bottom: .2rem;
+    margin-right: .5rem;
+    font-size: 1rem;
+
+}
+
+.button_seta:hover {
+    background-color: color-mix(in srgb, red, white);
+}
+
 
     /*PAGE INDICAÇÕES*/
 
@@ -1518,6 +1541,7 @@ iframe {
     /*justify-content: center;*/
     width: 100%;
     justify-content: space-around;
+    flex-shrink: 1;
 
 
     
@@ -1536,7 +1560,6 @@ iframe {
     margin-top: 1rem;
 
 
-
 }
 
 /*Mapa do ponto turístico*/
@@ -1551,7 +1574,7 @@ iframe {
     margin-top: 1rem;
     /*margin-left: auto;
     margin-right: auto;*/
-    
+
 
 }
 
