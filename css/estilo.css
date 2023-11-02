@@ -43,7 +43,7 @@ header {
 .article_menu{
     /*text-align: center;*/
     display: flex;
-    justify-content: center;
+    justify-content: left;
 
 }
 
@@ -1309,7 +1309,8 @@ h2:hover {
     width: 40px;
     height: 40px;
     /*margin-left: 2rem;*/
-    background-color: yellow;
+    /*background-color: yellow;*/
+    background-color: rgba(255, 255, 0, 0.781);
     border-radius: 20%;
 
 }
@@ -1338,7 +1339,8 @@ h2:hover {
     font-size: .7rem;
     font-weight: bolder;
     /*border: 2px solid yellow;*/
-    background-color: yellow;
+    /*background-color: yellow;*/
+    background-color: rgba(255, 255, 0, 0.781);
     border: 2px solid black;
     color: red;
 
@@ -1457,7 +1459,7 @@ iframe {
 /*h1: Título Pontos Turísticos -fotos, mapas e músicas*/
 .mapas_título {
     color: yellow;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 2rem;
     margin-bottom: 0;
 
@@ -1465,7 +1467,7 @@ iframe {
 
 /*Subtítulo header: Fotos, mapas e músicas*/
 .mapas_subtítulo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: .1rem;
     margin-bottom: 2rem;
   
