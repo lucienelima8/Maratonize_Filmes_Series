@@ -14,7 +14,9 @@ body {
 
      /*PAGE HOME*/
 header {
-    background-image: url(../imagens/header_netflix.jpg);
+    background-image: url(../imagens/carretel_filme_2.jpg);
+    /*background-image: url(../imagens/um-carretel-que-tem-uma-lata-vermelha-que-diz-a-palavra.jpg);*/
+    /*background-image: url(../imagens/header_netflix.jpg);*/
     /*background-image: url(imagens/header_netflix.jpg);*/
     background-size: cover;
     background-position: right center;
@@ -319,6 +321,8 @@ footer {
     font-weight: bolder;
     /*line-height: 1px; /*altura da linha*/
     background-color: rgba(143, 28, 28, 0.555);
+    white-space: wrap; /*pra ter quebra de linha*/
+
 
   
 }
@@ -983,7 +987,9 @@ ul, li, a {
     /*PAGE HOME*/
 /*Header Home*/
 header {
-    background-image: url(../imagens/header_netflix.jpg);
+    background-image: url(../imagens/carretel_filme_2.jpg);
+    /*background-image: url(../imagens/um-carretel-que-tem-uma-lata-vermelha-que-diz-a-palavra.jpg);*/
+    /*background-image: url(../imagens/header_netflix.jpg);*/
     /*background-image: url(imagens/header_netflix.jpg);*/
     background-size: cover;
     background-position: center;
