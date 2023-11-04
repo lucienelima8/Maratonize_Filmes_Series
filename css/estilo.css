@@ -332,7 +332,8 @@ footer {
 
 /*Header das indicações*/
 .indicações {
-    background-image: url(../imagens/indicacoes.jpg);
+    background-image: url(../imagens/pipoca.jpg);
+    /*background-image: url(../imagens/indicacoes.jpg);*/
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
@@ -1202,7 +1203,8 @@ span {
 
 /*Header das indicações*/
 .indicações {
-    background-image: url(../imagens/indicacoes.jpg); 
+    background-image: url(../imagens/pipoca.jpg);
+    /*background-image: url(../imagens/indicacoes.jpg); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
