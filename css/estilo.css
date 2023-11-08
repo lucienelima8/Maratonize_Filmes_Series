@@ -180,13 +180,13 @@ h3 {
 
 }
 
+/*Botão chamando pra ir pro formulário*/
 .btn_formulário:hover {
     background-color: yellow;
-    transform: scale(1.1);
     border: 1px solid black;
     color: black;
     
-
+    
 }
 
 
@@ -209,6 +209,9 @@ span {
 
 .fa-brands:hover {
     color: yellow;
+    transition: transform 0.5s; /*duração do transform*/
+    transform: rotateY(360deg); /*girar no eixo Y*/
+
 }
 
 /*Botão Meu portfólio*/
@@ -230,7 +233,7 @@ span {
 .btn_portfólio:hover {
     background-color: yellow;
     color: black;
-    
+        
 }
 
 
@@ -476,14 +479,25 @@ h2:hover {
 
 }
 
-.imagem_streaming {
+/*Imagem Controle remoto*/
+.imagem_controle_streaming {
     width: 50px;
     height: 50px;
     /*margin-left: 2rem;*/
     /*background-color: yellow;*/
     border-radius: 20%;
 
+
 }
+
+.imagem_controle_streaming:hover {
+    background-color: yellow;
+    transition: transform 0.5s; /*duração do transform*/
+    transform: rotateY(360deg); /*girar no eixo Y*/
+
+}
+
+
 
 .texto_streaming {
     color: black;
@@ -1112,6 +1126,8 @@ span {
 
 .fa-brands:hover {
     color: none;
+    transition: none;
+    transform: none;
 }
 
 /*Botão Meu portfólio*/
@@ -1135,8 +1151,7 @@ span {
 .btn_portfólio:hover {
     background-color: yellow;
     color: black;
-
-
+    
 }
 
 /*Créditos*/
@@ -1336,7 +1351,8 @@ h2:hover {
 
 }
 
-.imagem_streaming {
+/*Img Controle remoto*/
+.imagem_controle_streaming {
     width: 40px;
     height: 40px;
     /*margin-left: 2rem;*/
@@ -1345,6 +1361,12 @@ h2:hover {
     /*background-color: var(--cor_amarelo_claro);*/
     border-radius: 20%;
 
+}
+
+.imagem_controle_streaming:hover {
+    background-color: var(--cor_principal);
+    transition: none;
+    transform: none;
 }
 
 .texto_streaming {
