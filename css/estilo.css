@@ -134,33 +134,10 @@ h3 {
 
 }
 
-/*Autora*/
-
-/*div sobre a autora*/
-.sobre_autora {
-    color: black;
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    background-color: rgba(192, 75, 75, 0.555);
-    padding-bottom: 2rem;
-    padding-top: .3rem;
-
-}
-
-/*nome da seção*/
-.autora {
-    color: black;
-    letter-spacing: 1px;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-    margin-left: 1rem;
-    font-size: 1.2rem;
-}
-
-.autora_parágafro {
+/*Parágrafo do botão pro formulário na home*/
+.parágafro_btn_formulário {
     font-size: 1rem;
     margin-left: 1.2rem;
-
 
 }
 
@@ -189,6 +166,36 @@ h3 {
     
 }
 
+/*Autora*/
+
+/*div sobre a autora*/
+.sobre_autora {
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    background-color: rgba(192, 75, 75, 0.555);
+
+    padding-bottom: 2rem;
+    padding-top: .3rem;
+
+}
+
+/*nome da seção*/
+.autora {
+    color: black;
+    letter-spacing: 1px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.autora_parágafro {
+    font-size: 1rem;
+    margin-left: 1.2rem;
+
+
+}
 
 
 /*Meu nome e meus contatos*/
@@ -1050,6 +1057,43 @@ h3 {
 
 }
 
+/*Parágrafo do botão pro formulário na home*/
+.parágafro_btn_formulário {
+    font-size: 1rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    text-align: justify;
+
+}
+
+/*Botão interno para o formulário*/
+.btn_formulário {
+    background-color: rgba(143, 28, 28, 0.555);
+    color: black;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    padding: .7rem;
+    border-radius: 5px;
+    font-size: .8rem;
+    font-weight: bolder;
+    border: 1px solid black;
+
+
+}
+
+.btn_formulário:hover {
+    background-color: yellow;
+    transform: scale(1.1);
+    border: 1px solid black;
+    color: black;
+    
+
+}
+
+
+
+
 /*Autora*/
 
 /*div sobre a autora*/
@@ -1082,30 +1126,6 @@ h3 {
 
 }
 
-/*Botão interno para o formulário*/
-.btn_formulário {
-    background-color: rgba(143, 28, 28, 0.555);
-    color: black;
-    margin-top: 1rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-    padding: .7rem;
-    border-radius: 5px;
-    font-size: .8rem;
-    font-weight: bolder;
-    border: 1px solid black;
-
-
-}
-
-.btn_formulário:hover {
-    background-color: yellow;
-    transform: scale(1.1);
-    border: 1px solid black;
-    color: black;
-    
-
-}
 
 /*Meu nome e meus contatos*/
 span {
