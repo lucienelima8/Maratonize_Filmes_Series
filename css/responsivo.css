@@ -150,7 +150,7 @@
         border-radius: 5px;
         font-size: .8rem;
         font-weight: bolder;
-        border: 1px solid black;
+        border: 1px solid var(--cor_amarelo_claro);
         text-align: center;
     
     
@@ -174,6 +174,7 @@
         font-size: 1.5rem;
         letter-spacing: 1px;
         background-color: rgba(192, 75, 75, 0.555);
+        
         padding-bottom: 2rem;
         padding-top: .3rem;
         text-align: justify;
@@ -201,7 +202,8 @@
     
     /*Meu nome e meus contatos*/
     span {
-        color: yellow;
+        /*color: yellow;*/
+        color: var(--cor_amarelo_claro);
         font-weight: bold;
         font-size: 1rem;
     
@@ -229,7 +231,7 @@
         background-color: rgb(141, 33, 33);
         /*background-color: rgba(143, 28, 28, 0.555);*/
         font-size:  1rem;
-        border: 1px solid black;
+        border: 1px solid var(--cor_amarelo_claro);
         padding: 1rem;
         border-radius: 50%;
         text-decoration: none;
@@ -295,7 +297,8 @@
     .button_seta {
         background-color: #cccccc17;
         border-radius: 10%;
-        margin-bottom: .2rem;
+        /*margin-bottom: .2rem;*/
+        margin-bottom: 2.2rem;
         margin-right: .5rem;
         font-size: 1rem;
     
