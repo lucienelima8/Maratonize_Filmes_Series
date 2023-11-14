@@ -135,11 +135,12 @@ h3 {
 }
 
 /*Parágrafo do botão pro formulário na home*/
-.parágafro_btn_formulário {
+.parágrafo_btn_formulário {
     font-size: 1rem;
     margin-left: 1.2rem;
 
 }
+
 
 /*Botão interno para o formulário*/
 .btn_formulário {
@@ -1054,17 +1055,21 @@ h3 {
 .descrição_site {
     font-size: 1rem;
     margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    text-align: justify;
+
 
 }
 
 /*Parágrafo do botão pro formulário na home*/
-.parágafro_btn_formulário {
+.parágrafo_btn_formulário {
     font-size: 1rem;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     text-align: justify;
 
 }
+
 
 /*Botão interno para o formulário*/
 .btn_formulário {
@@ -1078,6 +1083,7 @@ h3 {
     font-size: .8rem;
     font-weight: bolder;
     border: 1px solid black;
+    text-align: center;
 
 
 }
@@ -1090,8 +1096,6 @@ h3 {
     
 
 }
-
-
 
 
 /*Autora*/
