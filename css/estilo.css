@@ -40,7 +40,7 @@ header {
     border: 2px solid yellow;
     border-radius: 15px;
     transform: scale(1);
-    transition: transform 0.6s ease-in-out;
+    /*transition: transform 0.6s ease-in-out;*/
     
 }
 
@@ -71,6 +71,7 @@ ul, li, a {
 
 }
 
+
 /*elemento pai*/
 .menu {
     justify-content: center;
@@ -89,15 +90,14 @@ ul, li, a {
     margin-top: 0;
     /*margin-top: 0.2rem;*/
     /*margin-right: 1rem;*/
-    
+       
 
 }
 
 .menu a:hover {
     background-color: brown;
     /*background-color: red;*/
-    transform: scale(1.1); 
-
+    transform: scale(1.1);
     
 }
 
@@ -785,6 +785,11 @@ iframe {
     text-align: center;
     margin-top: 1rem;
 
+}
+
+.audio:hover {
+    transform: scale(1.1);
+    
 }
 
 .audio p {

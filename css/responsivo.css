@@ -754,6 +754,10 @@
         margin-top: 1rem;
     
     }
+
+    .audio:hover {
+        transform: none;
+    }
     
     .audio p {
         font-weight: bold;
