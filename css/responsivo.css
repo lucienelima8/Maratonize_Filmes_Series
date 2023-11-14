@@ -857,13 +857,15 @@
         outline: none;
         border: 2px solid brown;
         border-radius: 5px;
+        transition: none;
     
     
     }
     
     input:focus {
         outline: 2px solid var(--cor_amarelo_claro);
-    
+        transform: none;
+
     }
     
     textarea {
@@ -875,11 +877,17 @@
         outline: none;
         border: 2px solid brown;
         border-radius: 5px;
+        transition: none;
+
     
     }
     
     textarea:focus {
         outline: 2px solid var(--cor_amarelo_claro);
+        transform: none;
+        margin-left: 1rem;
+
+
     
     }
     

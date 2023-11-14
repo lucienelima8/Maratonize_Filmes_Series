@@ -884,12 +884,16 @@ input {
     outline: none;
     border: 2px solid brown;
     border-radius: 5px;
+    transition: transform 1s;
 
 
 }
 
 input:focus {
     outline: 2px solid var(--cor_amarelo_claro);
+    transform: scale(1.1);
+    margin-left: 1.2rem;
+
 
 }
 
@@ -902,11 +906,15 @@ textarea {
     outline: none;
     border: 2px solid brown;
     border-radius: 5px;
+    transition: transform 1s;
+
 
 }
 
 textarea:focus {
     outline: 2px solid var(--cor_amarelo_claro);
+    transform: scale(1.1);
+    margin-left: 1.5rem;
 
 }
 
