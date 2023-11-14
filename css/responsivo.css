@@ -1,0 +1,920 @@
+  /*RESPONSIVIDADE CELULAR*/
+
+  @media screen and (max-width: 768px) {
+
+    /*Logo pra cada page clicável pra Home*/
+    .imagem_logo {
+        width: 2em;
+        height: 2em;
+        float: left;
+        /*max-width: 5em;*/
+        margin: auto;
+        opacity: .7;
+        border: 2px solid yellow;
+        border-radius: 15px;
+        transform: none;
+        transition: none;
+        margin: .3rem;
+    
+        
+    }
+    
+    .imagem_logo:hover {
+        transform: none;
+        transition: none;
+    }
+    
+    .article_menu{
+        /*text-align: center;*/
+        justify-content: center;
+        display: flex;
+    
+    }
+        
+    ul, li, a {
+        cursor: pointer;
+        display: inline;
+        text-decoration: none; /*tirar sublinhado*/
+        list-style-type: none; /*pra tirar o budgets*/
+        gap: .6rem; /*espaço entre linhas */
+        color: yellow;
+        /*color: white;*/
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding-bottom: 1px;
+        /*font-size: .7rem;*/
+        font-size: .6rem;
+    
+    }
+      
+    /*elemento pai*/
+    .menu {
+        /*justify-content: center;*/
+        /*display: inline;*/
+        padding-top: 1em;
+       
+        
+    }
+        
+    .menu a {
+        /*border: solid 2px white;*/
+        padding: .15em .5em;
+        border-radius: 15px;
+        margin-top: .0;
+        /*margin-top: 0.2rem;*/
+        /*margin-right: 1rem;*/
+        /*align-self: center; /*pra sobrescrever itens individuais*/
+      
+        
+    }
+        
+    .menu a:hover {
+        background-color: brown;
+        transform: scale(1.1); 
+        
+            
+    }    
+    
+        /*PAGE HOME*/
+    /*Header Home*/
+    header {
+        background-image: url(../imagens/carretel_filme_2.jpg);
+        /*background-image: url(../imagens/um-carretel-que-tem-uma-lata-vermelha-que-diz-a-palavra.jpg);*/
+        /*background-image: url(../imagens/header_netflix.jpg);*/
+        /*background-image: url(imagens/header_netflix.jpg);*/
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 100%;
+        margin: 0;
+        border-radius: 5px;
+    
+    }
+    
+    /*h1:Título e h3:subtítulo*/
+    h1, h3 {
+        text-align: center;
+        color: yellow;
+        /*color: var(--cor_amarelo_claro);*/
+    
+    }
+    
+    /*Título header*/
+    h1 {
+        font-size: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        
+    }
+    
+    
+    /*Subtítulo do header da home*/
+    h3 {
+        font-size: 2rem;
+        margin-top: .1rem;
+        margin-bottom: 2rem;
+        /*border: 1px solid yellow;*/
+    
+    }
+    
+    
+    /*Descrição da criação do site na home*/
+    .descrição_site {
+        font-size: 1rem;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+        text-align: justify;
+    
+    
+    }
+    
+    /*Parágrafo do botão pro formulário na home*/
+    .parágrafo_btn_formulário {
+        font-size: 1rem;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+        text-align: justify;
+    
+    }
+    
+    
+    /*Botão interno para o formulário*/
+    .btn_formulário {
+        background-color: rgba(143, 28, 28, 0.555);
+        color: black;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        padding: .7rem;
+        border-radius: 5px;
+        font-size: .8rem;
+        font-weight: bolder;
+        border: 1px solid black;
+        text-align: center;
+    
+    
+    }
+    
+    .btn_formulário:hover {
+        background-color: yellow;
+        transform: scale(1.1);
+        border: 1px solid black;
+        color: black;
+        
+    
+    }
+    
+    
+    /*Autora*/
+    
+    /*div sobre a autora*/
+    .sobre_autora {
+        color: black;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        background-color: rgba(192, 75, 75, 0.555);
+        padding-bottom: 2rem;
+        padding-top: .3rem;
+        text-align: justify;
+    
+    
+    }
+    
+    .autora {
+        color: black;
+        letter-spacing: 1px;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        margin-left: 1rem;
+        font-size: 1.2rem;
+    }
+    
+    .autora_parágafro {
+        font-size: 1rem;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+        text-align: justify;
+    
+    }
+    
+    
+    /*Meu nome e meus contatos*/
+    span {
+        color: yellow;
+        font-weight: bold;
+        font-size: 1rem;
+    
+    }
+    
+    
+    /*ícones linkedin e github*/
+    .fa-brands, .fa-linkedin, .fa-github {
+        font-size: 3rem;
+        margin-left: 1.2rem;
+        color: rgb(141, 33, 33);
+        
+    }
+    
+    .fa-brands:hover {
+        color: none;
+        transition: none;
+        transform: none;
+    }
+    
+    /*Botão Meu portfólio*/
+    .btn_portfólio {
+        color: black;
+        line-height: 1px;
+        background-color: rgb(141, 33, 33);
+        /*background-color: rgba(143, 28, 28, 0.555);*/
+        font-size:  1rem;
+        border: 1px solid black;
+        padding: 1rem;
+        border-radius: 50%;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 1.1rem;
+        margin-top: 0;
+        
+    
+    }
+    
+    .btn_portfólio:hover {
+        background-color: yellow;
+        color: black;
+        
+    }
+    
+    /*Créditos*/
+    .div_créditos {
+        display: flexbox;
+        flex-wrap: wrap;
+        flex-basis: 40vh;
+        /*background-color: rgba(143, 28, 28, 0.555);*/
+        background-color: var(--cor_principal);
+        margin-bottom: 1rem;
+        /*text-align: center;*/
+        padding: 1rem;
+    
+    }
+    
+    /*nome créditos*/   
+    .créditos {
+        color: black;
+        letter-spacing: 1px;
+        margin-top: 0;
+        margin-bottom: .5rem;
+        margin-left: 1rem;
+        font-size: 1.1rem;
+    
+    }
+    
+    .créditos_links {
+        /*color: rgba(255, 255, 0, 0.781);*/
+        color: var(--cor_amarelo_claro);
+        font-size: 1rem;
+        line-height: 1.1rem;
+        font-weight: lighter; /*tirar um pouco do negrito*/
+        justify-content: center;
+        text-decoration: none;
+    
+        
+    }
+    
+    /*Botão pra subir a página*/
+    
+    /*img seta: flaticon.com*/
+    #up {
+        position: fixed;
+        bottom: .7rem;
+        right: 0px;
+    
+    }
+    
+    .button_seta {
+        background-color: #cccccc17;
+        border-radius: 10%;
+        margin-bottom: .2rem;
+        margin-right: .5rem;
+        font-size: 1rem;
+    
+    }
+    
+    .button_seta:hover {
+        background-color: color-mix(in srgb, red, white);
+    }
+    
+    
+        /*PAGE INDICAÇÕES*/
+    
+    /*Header das indicações*/
+    .indicações {
+        background-image: url(../imagens/pipoca.jpg);
+        /*background-image: url(../imagens/indicacoes.jpg); */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 100%;
+        margin: 0;
+        border-radius: 5px;
+    
+    }
+    
+    /*Título de indicações*/
+    .indicações_título {
+        color: yellow;
+        font-size: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    
+    }
+    
+    /*Nome seção filmes e seção séries*/
+    h4 {
+        color: red;
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        background-color: wheat;
+        padding: 1rem;
+    
+    
+    }
+    
+    /*Título filme e série*/
+    h2 {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    
+    
+    }
+    
+    h2:hover {
+        transform: none;
+        color: black;
+    
+    }
+    
+    
+    
+    /*Seção pra cada de filme e série*/
+    .section_container {
+        text-align: center;
+        /*flex-direction: column;*/
+        margin-top: 1rem;
+    
+    
+    
+    }
+    
+    /*Div container de cada filme e série*/
+    .container {
+        /*align-items: center;*/
+        margin-bottom: 1rem;
+     
+    
+    
+    }
+    
+    /*Article pra título e img; e article pro parágrafo */
+    .article_fs {
+        
+    
+    
+    }
+    
+    /*Imagem de cada filme e série*/
+    .imagem_fs {
+        width: 150px;
+        float: none;
+        margin-left: 0;
+        margin-bottom: 1rem;
+        box-shadow: 2px 2px 2px 2px var(--cor_amarelo_claro);
+        border-radius: 5px;
+    
+    
+    }
+    
+    .imagem_fs:hover {
+        transform: none; 
+        transform: none;
+    
+    }
+    
+    /*Parágrafo dentro do article pro nome lançamento e sinopse*/
+    .parágrafo_dados {
+        font-weight: bold;
+        text-align: center;
+        /*flex-direction: column;*/
+        margin-top: 1rem;
+        margin-left: 1em;
+        margin-right: 1rem;
+        text-justify: auto;
+    
+       
+    }
+    
+    /*Parágrafo contando a sinopse do filme/série*/
+    .parágrafo_sinopse {
+        color: black;
+        text-align: justify;
+        margin-left: 1em;
+        margin-right: 1rem;
+        text-justify: auto;
+        margin-bottom: 3rem;
+      
+     
+    }
+    
+    /*Streamings*/  
+    /*bloco inteiro do streaming*/
+    .div_streaming {
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        /*background-color: rgba(143, 28, 28, 0.555);*/
+        padding: 15px;
+        /*width: 100%;*/
+    
+    }
+    
+    /*Img Controle remoto*/
+    .imagem_controle_streaming {
+        width: 40px;
+        height: 40px;
+        /*margin-left: 2rem;*/
+        /*background-color: yellow;*/
+        /*background-color: rgba(255, 255, 0, 0.781);*/
+        /*background-color: var(--cor_amarelo_claro);*/
+        border-radius: 20%;
+    
+    }
+    
+    .imagem_controle_streaming:hover {
+        background-color: var(--cor_principal);
+        transition: none;
+        transform: none;
+    }
+    
+    .texto_streaming {
+        color: black;
+        letter-spacing: 1px;
+        margin-top: .2rem;
+        margin-bottom: .5rem;
+        /*margin-left: 2rem;*/
+        font-size: 1.1rem;
+        /*text-decoration: underline;*/
+    
+    
+    }
+    
+    .btn_streaming {
+        display: inline-block;
+        /*background-color: #ccc;*/
+        /*color: black;*/
+        margin-top: .5rem;
+        /*margin-left: 2rem;*/
+        margin-bottom: 2rem;
+        padding: .5rem;
+        border-radius: 15px;
+        font-size: .7rem;
+        font-weight: bolder;
+        /*border: 2px solid yellow;*/
+        /*background-color: yellow;*/
+        /*background-color: rgba(255, 255, 0, 0.781);*/
+        background-color: var(--cor_amarelo_claro);
+        border: 2px solid black;
+        color: red;
+    
+    
+    }
+    
+    .btn_streaming:hover {
+        /*background-color: yellow;*/
+        transform: none;
+        /*border: 2px solid black;*/
+        /*color: red;*/
+    
+    }
+    
+    
+        /*PAGE TRAILER*/
+    
+    /*Header*/
+    .trailer {
+        background-image: url(../imagens/trailer.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 100%;
+        margin: 0;
+        border-radius: 5px;
+    
+    }
+    
+    /*Trailer no header*/
+    .trailer_título_header {
+        color: yellow;
+        font-size: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+       
+    }
+    
+    
+    /*nome da seção filmes e séries*/
+    .trailer_seção {
+        color: red;
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        background-color: rgb(248, 248, 148);
+        padding: 1rem;
+    
+    
+    
+    }
+    
+    /*Seção pra cada de filme e série*/
+    .section_container_trailer {
+        text-align: center;
+        margin-top: 1rem;
+    
+    }
+    
+    /*Div container de cada filme e série*/
+    .container_trailer {
+        /*align-items: center;*/
+        /*margin-bottom: 1rem;*/
+     
+    
+    }
+    
+    /*h2 do trailer*/
+    .container_trailer h2 {
+        font-size: 1.5rem;
+    
+    
+    }
+    
+    /*h2 Título de cada filme e série*/
+    .trailer_nome_fs {
+        text-align: center;
+        margin-top: 0;
+        /*margin-top: 1rem;*/
+        margin-bottom: 1rem;
+    
+    }
+    
+    .trailer_nome_fs:hover {
+        transform: none;
+        color: black;
+    
+    }
+    
+    /*Vídeos*/
+    iframe {
+        width: 300px;
+        height: 200px;
+        border: 2px solid var(--cor_amarelo_claro);
+        border-radius: 20px;
+    
+    }
+    
+        /*PAGE MAPAS*/
+    
+    /*Header dos mapas*/
+    .mapas {
+        background-image: url(../imagens/googlemaps_3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 100%;
+        margin: auto;
+        border-radius: 5px;
+    
+    }
+    
+    /*h1: Título Pontos Turísticos -fotos, mapas e músicas*/
+    .mapas_título {
+        color: yellow;
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    
+    }
+    
+    /*Subtítulo header: Fotos, mapas e músicas*/
+    .mapas_subtítulo {
+        font-size: 1.5rem;
+        margin-top: .1rem;
+        margin-bottom: 2rem;
+      
+    
+    }
+    
+    /*h4 da seção mapas: Alguns pontos turísticos...*/
+    .h4_mapas {
+        color: red;
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        background-color: wheat;
+        padding: 1rem;
+        font-family: 'Merienda', cursive;
+    
+    
+    }
+    
+    /*Bloco inteiro*/
+    .div_mapas {
+        margin-bottom: 5rem;
+       
+    
+    }
+    
+    .section_mapas {
+        margin: 1.5rem 1.5rem;
+        /*margin: auto;*/
+        /*display: inline-block;*/
+          
+        
+    }
+    
+    /*Título do f/s em mapas*/
+    .h2_mapas {
+        color: black;
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        margin-bottom: .1rem;
+    
+    }
+    
+    .h2_mapas:hover {
+        /*color: black;*/
+        /*text-shadow: 2px 2px 2px yellow;*/
+        /*font-size: 2.5rem;*/
+        transform: none;
+        color: black;
+    
+    }
+    
+    /*Descrição do ponto turístico*/
+    .descrição_turístico {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1.1rem;
+    
+    }
+    
+    /*Destacar parágrafo nome do ponto turístico*/
+    .destaque {
+        /*color: yellow;*/
+        color: var(--cor_amarelo_claro);
+    
+    }
+    
+    /*Article com a foto e o mapa*/
+    .article_mapas {
+        flex-direction: column;
+        /*display: flex;*/
+        /*justify-content: center;*/
+        width: 100%;
+        justify-content: center space-around;
+          
+    
+    }
+    
+    /*Imagem de cada ponto turístico*/
+    .imagem_turística {
+        width: 300px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px 3px var(--cor_amarelo_claro);
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        flex-shrink: 1;
+        flex-grow: 0;
+        
+    
+    
+    
+    }
+    
+    /*Mapa do ponto turístico*/
+    .mapa_turístico {
+        width: 300px;
+        height: 200px;
+        /*margin-left: 5rem;
+        margin-right: 2rem;*/
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px 3px var(--cor_amarelo_claro);
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        flex-shrink: 1;
+        flex-grow: 0;
+    
+       
+    
+    
+    }
+    
+    .imagem_turística:hover {
+        transform: none;
+        /*margin-top: 1rem; 
+        margin-bottom: 1.5rem;*/
+    
+    }
+    
+    .mapa_turístico:hover {
+        transform: none;
+    
+    
+    }
+    
+    /*Áudio do f/s*/
+    .audio {
+        text-align: center;
+        margin-top: 1rem;
+    
+    }
+    
+    .audio p {
+        font-weight: bold;
+        font-size: 1rem;
+        margin-top: 2rem;
+        
+    }
+    
+    
+        /*PAGE ENTRE EM CONTATO: FORMULÁRIO*/
+    
+    /*Header do formulário*/
+    .header_formulario {
+        background-image: url(../imagens/pergaminho4.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 100%;
+        margin: 0;
+        border-radius: 5px;
+        color: yellow;
+        /*font-size: 2.5rem;*/
+    
+    
+    }
+    
+    /*Título formulário*/
+    .indicações_formulario {
+        color: yellow;
+        font-size: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    
+    }
+    
+    /*Falando que a page foi montada...*/
+    .parágrafo_contato {
+        margin: .1rem 1.9rem;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bolder;
+        line-height: 2rem; /*distância entre uma linha*/
+    
+    }
+    
+    fieldset {
+        /*border: none;*/
+        border: 2px solid black;
+        /*border: 3px solid yellow;*/
+        border-radius: 20px;
+        margin-top: 1rem;
+    
+    }
+    
+    .section_form {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        max-width: 90%;
+        margin: auto;
+    
+    }
+    
+    /*Título: indique um f/s*/
+    legend {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        /*color: yellow;*/
+        color: var(--cor_amarelo_claro);
+        letter-spacing: .1rem;
+    
+    
+    }
+    
+    /*Nome de cada campo*/
+    label {
+        font-weight: bold;
+        font-size: 1.1rem;
+        /*color: yellow;*/
+        color: var(--cor_amarelo_claro);
+        margin-left: 1rem;
+        letter-spacing: .1rem;
+      
+    
+    }
+    
+    input {
+        width: 60%;
+        margin-top: .8rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        padding: .7rem;
+        /*border: 5px;*/
+        /*border-radius: 1px solid yellow;*/
+        /*font-size: 1rem;*/
+        flex-grow: 1;
+        outline: none;
+        border: 2px solid brown;
+        border-radius: 5px;
+    
+    
+    }
+    
+    input:focus {
+        outline: 2px solid var(--cor_amarelo_claro);
+    
+    }
+    
+    textarea {
+        resize: none;
+        margin-top: .8rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        width: 80%;
+        outline: none;
+        border: 2px solid brown;
+        border-radius: 5px;
+    
+    }
+    
+    textarea:focus {
+        outline: 2px solid var(--cor_amarelo_claro);
+    
+    }
+    
+    
+    .btn {
+        width: 5rem;
+        padding: .6rem;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+    
+    
+    
+    }
+    
+    .btn:hover {
+        background-color: var(--cor_amarelo_claro);
+        transform: scale(1.1); 
+        border-radius: 5px ;
+        color: brown;
+    }
+    
+    
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Esse trabalho foi feito por Luciene Lima*/
