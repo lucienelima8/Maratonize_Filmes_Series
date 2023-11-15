@@ -19,6 +19,9 @@
 
     <!-- Linkar responsivo css -->
     <link rel="stylesheet" href="css/responsivo.css">
+
+    <!-- Linkar o JS -->
+    <script defer src="app.js"></script>
     
 </head>
 
@@ -67,38 +70,38 @@
 
                     <label for="nome">Nome:</label>
                     <br>
-                    <input type="text" name="nome" required placeholder="Digite seu nome">
+                    <input type="text" name="nome" id="nome" required placeholder="Digite seu nome">
                     <br>
 
                     <label for="telefone">Telefone:</label>
                     <br>
-                    <input type="número" name="número">
+                    <input type="número" name="número" id="telefone">
                     <br>
 
                     <label for="email">E-mail:</label>
                     <br>
-                    <input type="email" name="email" required placeholder="Digie seu e-mail">
+                    <input type="email" name="email" id="email" required placeholder="Digie seu e-mail">
                     <br>
 
                     <label for="filme">Filme:</label>
                     <br>
-                    <input type="text" name="filme" required placeholder="Indique um filme">
+                    <input type="text" name="filme" id="filme" required placeholder="Indique um filme">
                     <br>
 
                     <label for="série">Série:</label>
                     <br>
-                    <input type="text" name="série" required placeholder="Indique uma série">
+                    <input type="text" name="série" id="série" required placeholder="Indique uma série">
                     <br>
 
                     <label for="msgm">Mensagem:</label>
                     <br>
-                    <textarea name="msgm" cols="80" rows="5" minlength="20" maxlength="1000" placeholder="Use esse espaço caso queira indicar mais filmes e séries"></textarea>
+                    <textarea name="msgm" id="msgm" cols="80" rows="5" minlength="20" maxlength="1000" placeholder="Use esse espaço caso queira indicar mais filmes e séries"></textarea>
                     <br><br>
 
                     <input type="submit" value="Enviar" data-button class="btn">
 
                     <!-- Teste pra ir pra home após -->
-                    <input type="hidden" name="_next" value="https://lucienelima8.github.io/Maratonize_Filmes_Series/">
+                    <!-- <input type="hidden" name="_next" value="https://lucienelima8.github.io/Maratonize_Filmes_Series/"> -->
 
 
                     
