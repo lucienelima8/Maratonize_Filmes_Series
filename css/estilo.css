@@ -101,8 +101,8 @@ ul, li, a {
     
 }
 
-/*Título e subtítulo*/
-h1, h3 {
+/*h1:Título e h3:subtítulo da Home e Mapas*/
+    h1, h3 {
     text-align: center;
     color: yellow;
     /*color: var(--cor_amarelo_claro);*/
@@ -115,16 +115,37 @@ h1 {
 }
 
 
-/*Subtítulo do header Home*/
+/*Subtítulo do header Home e Subtítulo do Mapas*/
 h3 {
     font-size: 3rem;
     margin-top: .1rem;
     margin-bottom: 2rem;
     /*border: 1px solid yellow;*/
 
+    /*pra animar o subtítulo da Home e Mapas*/
+    transform: translateX(-400px); /*de cima pra baixo*/
+    /*pra linkar o keyframe abaixo com a parte aqui que quero animar*/
+    animation-name: slide; /*nome da animação*/
+    animation-duration: 7s;/*velocidade*/
+    animation-timing-function: ease; 
+    animation-delay: 0;
+    /*direção da animação*/
+    animation-duration: normal; /*direção*/
+    animation-fill-mode: forwards;
+    animation-play-state: running; /*estado da animação*/
+    animation-iteration-count: 1; /*quantas vezes vai ocorrer*/
+
 
 }
 
+/*animação pro subtítulo h3 da home e mapas*/
+@keyframes slide {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+}
 
 
 /*Descrição da criação do site na home*/
@@ -518,7 +539,10 @@ h2:hover {
     /*text-decoration: underline;*/
     /*text-align: center;*/
 
+        
 }
+
+
 
 .btn_streaming {
     /*display: inline-block;*/
@@ -709,7 +733,10 @@ iframe {
     margin-top: 3rem;
     margin-bottom: .1rem;
 
+
 }
+
+
 
 .h2_mapas:hover {
     /*color: black;*/
@@ -785,6 +812,7 @@ iframe {
     text-align: center;
     margin-top: 1rem;
 
+
 }
 
 .audio:hover {
@@ -792,10 +820,13 @@ iframe {
     
 }
 
+
 .audio p {
     font-weight: bold;
     font-size: 1rem;
     margin-top: 2rem;
+
+
     
 }
 

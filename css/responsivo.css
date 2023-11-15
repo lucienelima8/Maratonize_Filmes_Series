@@ -92,7 +92,7 @@
     
     }
     
-    /*h1:Título e h3:subtítulo*/
+    /*h1:Título e h3:subtítulo da Home e Mapas*/
     h1, h3 {
         text-align: center;
         color: yellow;
@@ -109,13 +109,35 @@
     }
     
     
-    /*Subtítulo do header da home*/
+    /*Subtítulo do header Home e Subtítulo do Mapas*/
     h3 {
         font-size: 2rem;
         margin-top: .1rem;
         margin-bottom: 2rem;
         /*border: 1px solid yellow;*/
+
+        /*pra animar o subtítulo da Home e Mapas*/
+        transform: translateX(-50px); /*de cima pra baixo*/
+        /*pra linkar o keyframe abaixo com a parte aqui que quero animar*/
+        animation-name: slide; /*nome da animação*/
+        animation-duration: 4s;/*velocidade*/
+        animation-timing-function: ease; 
+        animation-delay: 0;
+        /*direção da animação*/
+        animation-duration: normal; /*direção*/
+        animation-fill-mode: forwards;
+        animation-play-state: running; /*estado da animação*/
+        animation-iteration-count: 1; /*quantas vezes vai ocorrer*/
     
+    }
+
+    /*animação pro subtítulo h3 da home e mapas*/
+    @keyframes slide {
+        to {
+            transform: translateX(0);
+            opacity: 1;
+
+        }
     }
     
     
