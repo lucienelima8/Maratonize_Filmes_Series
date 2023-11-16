@@ -661,7 +661,7 @@ h2:hover {
 
 /*Vídeos*/
 iframe {
-    width: 500px;
+    width: 600px;
     height: 300px;
     border: 2px solid var(--cor_amarelo_claro);
     border-radius: 20px;
