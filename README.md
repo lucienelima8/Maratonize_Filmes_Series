@@ -1,6 +1,7 @@
 # Maratonize_Filmes_Series
-Maratonize: Dicas de Filmes e Séries (para fins didáticos do curso Descodificadas - trilha 1 - 2023)
-- Desenvolvido com HTML 5 e CSS 3.
+Maratonize: Dicas de Filmes e Séries (para fins didáticos do curso Descodificadas - trilha 1 - 2023) 
+<br>
+<a href="https://lucienelima8.github.io/Maratonize_Filmes_Series/" target="_blank">Clique aqui</a>
 
 
 Tarefa:
@@ -16,9 +17,11 @@ Escolha um assunto de seu interesse que você queira desenvolver um site, manten
 <br>Vídeo
 <br>Mapa de localização
 <br>Formulário para coletar cadastro
-<br>Rodapé com a frase criado com seu nome
+<br>Rodapé com a frase criado com seu 
 
-<a href="https://lucienelima8.github.io/Maratonize_Filmes_Series/" target="_blank">Clique aqui</a>
+<br>
+- Desenvolvido com HTML 5 e CSS 3.
+
 
 Autora: Luciene Lima
 <br>
