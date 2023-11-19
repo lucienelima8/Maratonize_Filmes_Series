@@ -219,6 +219,14 @@ h3 {
 
 }
 
+/*Link Meu email (a href)*/
+.email {
+    font-size: 1rem;
+    color: var(--cor_amarelo_claro);
+    text-decoration: underline;
+
+
+}
 
 /*Meu nome, meus contatos*/
 span {
@@ -310,6 +318,13 @@ span {
     text-decoration: underline;
   
     
+}
+
+.créditos_links:hover {
+    color: black;
+    text-decoration: none;
+
+
 }
 
 

@@ -220,7 +220,16 @@
         text-align: justify;
     
     }
+
+    /*Link Meu email (a href)*/
+    .email {
+        font-size: 1rem;
+        color: var(--cor_amarelo_claro);
+        text-decoration: none;
+
+    }
     
+
     
     /*Meu nome e meus contatos*/
     span {
@@ -305,6 +314,14 @@
     
         
     }
+
+    .créditos_links:hover {
+        color: var(--cor_amarelo_claro);
+        text-decoration: none;
+
+
+    }
+    
     
     /*Botão pra subir a página*/
     
