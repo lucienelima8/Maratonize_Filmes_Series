@@ -28,6 +28,9 @@ Autora: Luciene Lima
 <br>
 <a href="https://github.com/lucienelima8" target="_blank">Meu Github</a>
 
+![maratonize2](https://github.com/lucienelima8/Maratonize_Filmes_Series/assets/137119392/f7ad5a4c-a25f-4710-a51a-89d38ed035d1)
+
+
 <hr>
 <b>Plágio é crime.<br>
 A violação dos direitos autorais é CRIME previsto no <b>artigo 184 do Código Penal (DECRETO-LEI Nº 2.848, DE 7 de Dezembro de 1940)<b>, com punição que vai desde o pagamento de multa até a reclusão de quatro anos, dependendo da extensão e da forma como o direito do autor foi violado.
