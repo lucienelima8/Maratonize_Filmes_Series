@@ -1,5 +1,7 @@
 # Maratonize_Filmes_Series
-Maratonize: Dicas de Filmes e Séries (para fins didáticos do curso Descodificadas - trilha 1 - 2023) 
+Maratonize: Dicas de Filmes e Séries (para fins didáticos do curso Descodificadas - trilha 1)
+Trilha 2 - 2024: aperfeiçoando o site.
+ 
 <br>
 <a href="https://lucienelima8.github.io/Maratonize_Filmes_Series/" target="_blank">Clique aqui</a>
 
