@@ -491,7 +491,7 @@ h2:hover {
 
 }
 
-/*Parágrafo dentro do article pro nome lançamento e sinopse*/
+/*Parágrafo dentro do article pro nome lançamento, sinopse, elenco*/
 .parágrafo_dados {
     font-weight: bold;
     text-align: left;
@@ -513,6 +513,11 @@ h2:hover {
     text-align: justify;
  
  
+}
+
+.parágrafo_atores{
+    text-align: left;
+    margin-bottom: 1rem;
 }
 
 /*Streamings*/ 

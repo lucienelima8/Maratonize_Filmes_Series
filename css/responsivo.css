@@ -448,7 +448,7 @@
     
     }
     
-    /*Parágrafo dentro do article pro nome lançamento e sinopse*/
+    /*Parágrafo dentro do article pro nome lançamento, sinopse, elenco*/
     .parágrafo_dados {
         font-weight: bold;
         text-align: center;
@@ -473,6 +473,7 @@
      
     }
 
+    /*Elenco, atores*/
     .parágrafo_atores{
         text-align: center;
         margin-bottom: 1rem;
