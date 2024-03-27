@@ -461,8 +461,8 @@
        
     }
     
-    /*Parágrafo contando a sinopse do filme/série*/
-    .parágrafo_sinopse {
+    /*Parágrafo contando a sinopse e atores do filme/série*/
+    .parágrafo_sinopse, .parágrafo_atores {
         color: black;
         text-align: justify;
         margin-left: 1em;
@@ -471,6 +471,11 @@
         margin-bottom: 3rem;
       
      
+    }
+
+    .parágrafo_atores{
+        text-align: center;
+        margin-bottom: 1rem;
     }
     
     /*Streamings*/  

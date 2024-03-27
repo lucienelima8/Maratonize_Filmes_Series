@@ -502,8 +502,8 @@ h2:hover {
 
 }
 
-/*Parágrafo contando a sinopse do filme/série*/
-.parágrafo_sinopse {
+/*Parágrafo contando a sinopse e atores do filme/série*/
+.parágrafo_sinopse, .parágrafo_atores {
     color: black;
     text-align: left;
     margin-left: 30rem;
